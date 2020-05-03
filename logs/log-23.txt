@@ -1,0 +1,1270 @@
+1580970867169|INFO|org.arl.unet.UnetBoot@1:invoke|fjage Build: fjage-1.6.1/10-09-2019_00:41:43
+1580970867253|INFO|org.arl.unet.UnetBoot@1:invoke|UnetBoot: [scripts/2-node-network.groovy]
+1580970867396|INFO|org.arl.unet.JsonTypeAdapter@1:<clinit>|Groovy detected, using GroovyClassLoader
+1580970867420|INFO|org.arl.fjage.remote.MessageAdapterFactory@1:<clinit>|Groovy detected, using GroovyClassLoader
+1580970868490|INFO|org.arl.unet.sim.SimulationMasterContainer@1:openTcpServer|Listening on port 1101
+1580970868508|INFO|org.arl.fjage.connectors.TcpServer@12:run|Listening on port 1101
+1580970868570|INFO|org.arl.unet.nodeinfo.NodeInfo/A@1:setAddress|Node address changed to 1
+1580970868609|INFO|Script1@1:invoke|Starting web interface on port null:8081
+1580970868734|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /fjage
+1580970868736|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /
+1580970868742|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /logs
+1580970868742|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /sim
+1580970868757|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /ws
+1580970868838|INFO|org.arl.fjage.connectors.WebServer@1:start|Started web server on port 8081
+1580970868840|INFO|org.arl.unet.sim.SimulationMasterContainer@1:addConnector|Listening on ws://127.0.1.1:8081/ws
+1580970868845|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /fjage/shell/ws
+1580970869322|INFO|Script1@1:invoke|Created static node A (1) @ [0, 0, -15]
+1580970869328|INFO|org.arl.unet.sim.SimulationMasterContainer@1:openTcpServer|Listening on port 1102
+1580970869328|INFO|org.arl.fjage.connectors.TcpServer@26:run|Listening on port 1102
+1580970869329|INFO|org.arl.unet.nodeinfo.NodeInfo/B@1:setAddress|Node address changed to 2
+1580970869329|INFO|Script1@1:invoke|Starting web interface on port null:8082
+1580970869331|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /fjage
+1580970869332|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /
+1580970869333|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /logs
+1580970869334|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /sim
+1580970869334|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /ws
+1580970869349|INFO|org.arl.fjage.connectors.WebServer@1:start|Started web server on port 8082
+1580970869350|INFO|org.arl.unet.sim.SimulationMasterContainer@1:addConnector|Listening on ws://127.0.1.1:8082/ws
+1580970869350|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /fjage/shell/ws
+1580970869518|INFO|Script1@1:invoke|Created static node B (2) @ [500.0, 0, -15]
+1580970869520|INFO|org.arl.unet.sim.SimulationMasterContainer@1:openTcpServer|Listening on port 1103
+1580970869522|INFO|org.arl.unet.nodeinfo.NodeInfo/C@1:setAddress|Node address changed to 3
+1580970869522|INFO|Script1@1:invoke|Starting web interface on port null:8083
+1580970869523|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /fjage
+1580970869524|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /
+1580970869525|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /logs
+1580970869526|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /sim
+1580970869526|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /ws
+1580970869528|INFO|org.arl.fjage.connectors.TcpServer@39:run|Listening on port 1103
+1580970869537|INFO|org.arl.fjage.connectors.WebServer@1:start|Started web server on port 8083
+1580970869540|INFO|org.arl.unet.sim.SimulationMasterContainer@1:addConnector|Listening on ws://127.0.1.1:8083/ws
+1580970869545|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /fjage/shell/ws
+1580970869639|INFO|Script1@1:invoke|Created static node C (3) @ [500.0, 500.0, -15]
+1580970869647|INFO|org.arl.unet.sim.SimulationMasterContainer@1:openTcpServer|Listening on port 1104
+1580970869648|INFO|org.arl.unet.nodeinfo.NodeInfo/D@1:setAddress|Node address changed to 4
+1580970869649|INFO|Script1@1:invoke|Starting web interface on port null:8084
+1580970869651|INFO|org.arl.fjage.connectors.TcpServer@52:run|Listening on port 1104
+1580970869651|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /fjage
+1580970869652|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /
+1580970869652|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /logs
+1580970869653|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /sim
+1580970869654|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /ws
+1580970869681|INFO|org.arl.fjage.connectors.WebServer@1:start|Started web server on port 8084
+1580970869684|INFO|org.arl.unet.sim.SimulationMasterContainer@1:addConnector|Listening on ws://127.0.1.1:8084/ws
+1580970869685|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /fjage/shell/ws
+1580970869779|INFO|Script1@1:invoke|Created static node D (4) @ [1000, 0, -15]
+1580970869780|INFO|org.arl.unet.sim.SimulationMasterContainer@1:openTcpServer|Listening on port 1105
+1580970869782|INFO|org.arl.unet.nodeinfo.NodeInfo/E@1:setAddress|Node address changed to 5
+1580970869782|INFO|org.arl.fjage.connectors.TcpServer@65:run|Listening on port 1105
+1580970869782|INFO|Script1@1:invoke|Starting web interface on port null:8085
+1580970869784|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /fjage
+1580970869784|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /
+1580970869785|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /logs
+1580970869786|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /sim
+1580970869789|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /ws
+1580970869802|INFO|org.arl.fjage.connectors.WebServer@1:start|Started web server on port 8085
+1580970869802|INFO|org.arl.unet.sim.SimulationMasterContainer@1:addConnector|Listening on ws://127.0.1.1:8085/ws
+1580970869803|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /fjage/shell/ws
+1580970869953|INFO|Script1@1:invoke|Created static node E (5) @ [1000, 1000, -15]
+1580970869956|INFO|org.arl.unet.sim.SimulationMasterContainer@1:openTcpServer|Listening on port 1106
+1580970869958|INFO|org.arl.unet.nodeinfo.NodeInfo/F@1:setAddress|Node address changed to 6
+1580970869959|INFO|Script1@1:invoke|Starting web interface on port null:8086
+1580970869961|INFO|org.arl.fjage.connectors.TcpServer@78:run|Listening on port 1106
+1580970869965|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /fjage
+1580970869966|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /
+1580970869967|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /logs
+1580970869968|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /sim
+1580970869969|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /ws
+1580970869999|INFO|org.arl.fjage.connectors.WebServer@1:start|Started web server on port 8086
+1580970870004|INFO|org.arl.unet.sim.SimulationMasterContainer@1:addConnector|Listening on ws://127.0.1.1:8086/ws
+1580970870017|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /fjage/shell/ws
+1580970870207|INFO|Script1@1:invoke|Created static node F (6) @ [1500.0, 0, -15]
+1580970870213|INFO|org.arl.unet.sim.SimulationMasterContainer@1:openTcpServer|Listening on port 1107
+1580970870216|INFO|org.arl.unet.nodeinfo.NodeInfo/G@1:setAddress|Node address changed to 7
+1580970870216|INFO|Script1@1:invoke|Starting web interface on port null:8087
+1580970870219|INFO|org.arl.fjage.connectors.TcpServer@92:run|Listening on port 1107
+1580970870222|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /fjage
+1580970870230|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /
+1580970870233|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /logs
+1580970870233|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /sim
+1580970870234|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /ws
+1580970870280|INFO|org.arl.fjage.connectors.WebServer@1:start|Started web server on port 8087
+1580970870283|INFO|org.arl.unet.sim.SimulationMasterContainer@1:addConnector|Listening on ws://127.0.1.1:8087/ws
+1580970870286|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /fjage/shell/ws
+1580970870575|INFO|Script1@1:invoke|Created static node G (7) @ [500.0, -500.0, -15]
+1580970870581|INFO|org.arl.unet.sim.SimulationMasterContainer@1:openTcpServer|Listening on port 1108
+1580970870581|INFO|org.arl.fjage.connectors.TcpServer@107:run|Listening on port 1108
+1580970870583|INFO|org.arl.unet.nodeinfo.NodeInfo/H@1:setAddress|Node address changed to 8
+1580970870584|INFO|Script1@1:invoke|Starting web interface on port null:8088
+1580970870587|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /fjage
+1580970870588|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /
+1580970870589|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /logs
+1580970870592|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /sim
+1580970870595|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /ws
+1580970870607|INFO|org.arl.fjage.connectors.WebServer@1:start|Started web server on port 8088
+1580970870608|INFO|org.arl.unet.sim.SimulationMasterContainer@1:addConnector|Listening on ws://127.0.1.1:8088/ws
+1580970870614|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /fjage/shell/ws
+1580970870702|INFO|Script1@1:invoke|Created static node H (8) @ [1000, -1000, -15]
+1580970870726|INFO|Script1@1:invoke| --- BEGIN SIMULATION #1 ---
+1580970870734|INFO|org.arl.unet.sim.SimulationMasterContainer@1:init|Initializing agents...
+1580970870739|INFO|org.arl.unet.remote.RemoteControl/A@120:init|Loading agent remote v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.remote.RemoteControl] on A
+1580970870740|INFO|org.arl.unet.net.Router/A@121:init|Loading agent router v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.net.Router] on A
+1580970870741|INFO|org.arl.unet.link.ReliableLink/A@122:init|Loading agent uwlink v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.link.ReliableLink] on A
+1580970870742|INFO|org.arl.unet.bb.BasebandSignalMonitor/A@123:init|Loading agent bbmon v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.bb.BasebandSignalMonitor] on A
+1580970870748|INFO|org.arl.fjage.shell.ShellAgent/A@125:init|Agent websh init
+1580970870753|INFO|org.arl.unet.addr.AddressResolution/A@126:init|Loading agent arp v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.addr.AddressResolution] on A
+1580970870757|INFO|org.arl.unet.mac.CSMA/A@128:init|Loading agent mac v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.mac.CSMA] on A
+1580970870766|INFO|org.arl.unet.net.RouteDiscoveryProtocol/A@130:init|Loading agent rdp v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.net.RouteDiscoveryProtocol] on A
+1580970870767|INFO|org.arl.unet.sim.HalfDuplexModem/A@129:init|Loading agent phy v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.sim.HalfDuplexModem] on A
+1580970870767|INFO|org.arl.unet.transport.SWTransport/A@132:init|Loading agent transport v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.transport.SWTransport] on A
+1580970870768|INFO|org.arl.unet.nodeinfo.NodeInfo/A@131:init|Loading agent node v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.nodeinfo.NodeInfo] on A
+1580970870768|INFO|org.arl.unet.phy.Ranging/A@133:init|Loading agent ranging v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.phy.Ranging] on A
+1580970870768|INFO|org.arl.unet.sim.SimulationAgent/A@134:invoke|Loading simulator : SimulationAgent
+1580970870868|INFO|org.arl.unet.sim.SimulationMasterContainer@1:init|Agents ready...
+1580970870868|INFO|org.arl.unet.sim.SimulationMasterContainer@1:init|Initializing agents...
+1580970870869|INFO|org.arl.unet.remote.RemoteControl/B@135:init|Loading agent remote v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.remote.RemoteControl] on B
+1580970870870|INFO|org.arl.unet.net.Router/B@136:init|Loading agent router v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.net.Router] on B
+1580970870873|INFO|org.arl.unet.bb.BasebandSignalMonitor/B@138:init|Loading agent bbmon v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.bb.BasebandSignalMonitor] on B
+1580970870874|INFO|org.arl.fjage.shell.ShellAgent/B@140:init|Agent websh init
+1580970870873|INFO|org.arl.unet.link.ReliableLink/B@137:init|Loading agent uwlink v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.link.ReliableLink] on B
+1580970870874|INFO|org.arl.unet.addr.AddressResolution/B@141:init|Loading agent arp v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.addr.AddressResolution] on B
+1580970870875|INFO|org.arl.unet.sim.HalfDuplexModem/B@143:init|Loading agent phy v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.sim.HalfDuplexModem] on B
+1580970870875|INFO|org.arl.unet.mac.CSMA/B@142:init|Loading agent mac v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.mac.CSMA] on B
+1580970870876|INFO|org.arl.unet.net.RouteDiscoveryProtocol/B@144:init|Loading agent rdp v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.net.RouteDiscoveryProtocol] on B
+1580970870877|INFO|org.arl.unet.nodeinfo.NodeInfo/B@146:init|Loading agent node v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.nodeinfo.NodeInfo] on B
+1580970870878|INFO|org.arl.unet.transport.SWTransport/B@147:init|Loading agent transport v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.transport.SWTransport] on B
+1580970870879|INFO|org.arl.unet.phy.Ranging/B@148:init|Loading agent ranging v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.phy.Ranging] on B
+1580970870881|INFO|org.arl.unet.sim.SimulationAgent/B@149:invoke|Loading simulator : SimulationAgent
+1580970870982|INFO|org.arl.unet.sim.SimulationMasterContainer@1:init|Agents ready...
+1580970870982|INFO|org.arl.unet.sim.SimulationMasterContainer@1:init|Initializing agents...
+1580970870983|INFO|org.arl.unet.remote.RemoteControl/C@151:init|Loading agent remote v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.remote.RemoteControl] on C
+1580970870983|INFO|org.arl.unet.link.ReliableLink/C@153:init|Loading agent uwlink v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.link.ReliableLink] on C
+1580970870983|INFO|org.arl.unet.net.Router/C@152:init|Loading agent router v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.net.Router] on C
+1580970870987|INFO|org.arl.unet.bb.BasebandSignalMonitor/C@154:init|Loading agent bbmon v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.bb.BasebandSignalMonitor] on C
+1580970870996|INFO|org.arl.fjage.shell.ShellAgent/C@156:init|Agent websh init
+1580970870996|INFO|org.arl.unet.addr.AddressResolution/C@157:init|Loading agent arp v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.addr.AddressResolution] on C
+1580970870997|INFO|org.arl.unet.mac.CSMA/C@158:init|Loading agent mac v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.mac.CSMA] on C
+1580970870997|INFO|org.arl.unet.sim.HalfDuplexModem/C@160:init|Loading agent phy v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.sim.HalfDuplexModem] on C
+1580970870997|INFO|org.arl.unet.net.RouteDiscoveryProtocol/C@161:init|Loading agent rdp v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.net.RouteDiscoveryProtocol] on C
+1580970870999|INFO|org.arl.unet.transport.SWTransport/C@163:init|Loading agent transport v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.transport.SWTransport] on C
+1580970871001|INFO|org.arl.unet.nodeinfo.NodeInfo/C@162:init|Loading agent node v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.nodeinfo.NodeInfo] on C
+1580970871002|INFO|org.arl.unet.sim.SimulationAgent/C@165:invoke|Loading simulator : SimulationAgent
+1580970871005|INFO|org.arl.unet.phy.Ranging/C@164:init|Loading agent ranging v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.phy.Ranging] on C
+1580970871102|INFO|org.arl.unet.sim.SimulationMasterContainer@1:init|Agents ready...
+1580970871102|INFO|org.arl.unet.sim.SimulationMasterContainer@1:init|Initializing agents...
+1580970871104|INFO|org.arl.unet.net.Router/D@167:init|Loading agent router v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.net.Router] on D
+1580970871104|INFO|org.arl.unet.remote.RemoteControl/D@166:init|Loading agent remote v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.remote.RemoteControl] on D
+1580970871105|INFO|org.arl.unet.bb.BasebandSignalMonitor/D@169:init|Loading agent bbmon v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.bb.BasebandSignalMonitor] on D
+1580970871105|INFO|org.arl.unet.link.ReliableLink/D@168:init|Loading agent uwlink v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.link.ReliableLink] on D
+1580970871105|INFO|org.arl.fjage.shell.ShellAgent/D@171:init|Agent websh init
+1580970871106|INFO|org.arl.unet.addr.AddressResolution/D@172:init|Loading agent arp v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.addr.AddressResolution] on D
+1580970871107|INFO|org.arl.unet.mac.CSMA/D@173:init|Loading agent mac v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.mac.CSMA] on D
+1580970871112|INFO|org.arl.unet.sim.HalfDuplexModem/D@175:init|Loading agent phy v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.sim.HalfDuplexModem] on D
+1580970871112|INFO|org.arl.unet.sim.SimulationAgent/D@180:invoke|Loading simulator : SimulationAgent
+1580970871114|INFO|org.arl.unet.net.RouteDiscoveryProtocol/D@176:init|Loading agent rdp v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.net.RouteDiscoveryProtocol] on D
+1580970871114|INFO|org.arl.unet.phy.Ranging/D@179:init|Loading agent ranging v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.phy.Ranging] on D
+1580970871114|INFO|org.arl.unet.transport.SWTransport/D@178:init|Loading agent transport v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.transport.SWTransport] on D
+1580970871114|INFO|org.arl.unet.nodeinfo.NodeInfo/D@177:init|Loading agent node v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.nodeinfo.NodeInfo] on D
+1580970871212|INFO|org.arl.unet.sim.SimulationMasterContainer@1:init|Agents ready...
+1580970871213|INFO|org.arl.unet.sim.SimulationMasterContainer@1:init|Initializing agents...
+1580970871216|INFO|org.arl.unet.remote.RemoteControl/E@181:init|Loading agent remote v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.remote.RemoteControl] on E
+1580970871216|INFO|org.arl.unet.net.Router/E@182:init|Loading agent router v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.net.Router] on E
+1580970871216|INFO|org.arl.unet.link.ReliableLink/E@183:init|Loading agent uwlink v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.link.ReliableLink] on E
+1580970871217|INFO|org.arl.unet.bb.BasebandSignalMonitor/E@184:init|Loading agent bbmon v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.bb.BasebandSignalMonitor] on E
+1580970871218|INFO|org.arl.fjage.shell.ShellAgent/E@186:init|Agent websh init
+1580970871220|INFO|org.arl.unet.addr.AddressResolution/E@187:init|Loading agent arp v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.addr.AddressResolution] on E
+1580970871222|INFO|org.arl.unet.sim.HalfDuplexModem/E@190:init|Loading agent phy v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.sim.HalfDuplexModem] on E
+1580970871222|INFO|org.arl.unet.net.RouteDiscoveryProtocol/E@191:init|Loading agent rdp v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.net.RouteDiscoveryProtocol] on E
+1580970871221|INFO|org.arl.unet.mac.CSMA/E@189:init|Loading agent mac v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.mac.CSMA] on E
+1580970871222|INFO|org.arl.unet.nodeinfo.NodeInfo/E@192:init|Loading agent node v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.nodeinfo.NodeInfo] on E
+1580970871223|INFO|org.arl.unet.transport.SWTransport/E@193:init|Loading agent transport v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.transport.SWTransport] on E
+1580970871224|INFO|org.arl.unet.sim.SimulationAgent/E@195:invoke|Loading simulator : SimulationAgent
+1580970871224|INFO|org.arl.unet.phy.Ranging/E@194:init|Loading agent ranging v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.phy.Ranging] on E
+1580970871324|INFO|org.arl.unet.sim.SimulationMasterContainer@1:init|Agents ready...
+1580970871324|INFO|org.arl.unet.sim.SimulationMasterContainer@1:init|Initializing agents...
+1580970871325|INFO|org.arl.unet.remote.RemoteControl/F@196:init|Loading agent remote v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.remote.RemoteControl] on F
+1580970871329|INFO|org.arl.fjage.shell.ShellAgent/F@201:init|Agent websh init
+1580970871328|INFO|org.arl.unet.bb.BasebandSignalMonitor/F@199:init|Loading agent bbmon v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.bb.BasebandSignalMonitor] on F
+1580970871327|INFO|org.arl.unet.net.Router/F@197:init|Loading agent router v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.net.Router] on F
+1580970871326|INFO|org.arl.unet.link.ReliableLink/F@198:init|Loading agent uwlink v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.link.ReliableLink] on F
+1580970871332|INFO|org.arl.unet.sim.HalfDuplexModem/F@205:init|Loading agent phy v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.sim.HalfDuplexModem] on F
+1580970871331|INFO|org.arl.unet.mac.CSMA/F@203:init|Loading agent mac v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.mac.CSMA] on F
+1580970871330|INFO|org.arl.unet.addr.AddressResolution/F@202:init|Loading agent arp v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.addr.AddressResolution] on F
+1580970871338|INFO|org.arl.unet.net.RouteDiscoveryProtocol/F@206:init|Loading agent rdp v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.net.RouteDiscoveryProtocol] on F
+1580970871339|INFO|org.arl.unet.nodeinfo.NodeInfo/F@207:init|Loading agent node v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.nodeinfo.NodeInfo] on F
+1580970871354|INFO|org.arl.unet.transport.SWTransport/F@208:init|Loading agent transport v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.transport.SWTransport] on F
+1580970871357|INFO|org.arl.unet.phy.Ranging/F@209:init|Loading agent ranging v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.phy.Ranging] on F
+1580970871358|INFO|org.arl.unet.sim.SimulationAgent/F@210:invoke|Loading simulator : SimulationAgent
+1580970871458|INFO|org.arl.unet.sim.SimulationMasterContainer@1:init|Agents ready...
+1580970871458|INFO|org.arl.unet.sim.SimulationMasterContainer@1:init|Initializing agents...
+1580970871461|INFO|org.arl.unet.remote.RemoteControl/G@211:init|Loading agent remote v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.remote.RemoteControl] on G
+1580970871464|INFO|org.arl.unet.bb.BasebandSignalMonitor/G@214:init|Loading agent bbmon v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.bb.BasebandSignalMonitor] on G
+1580970871466|INFO|org.arl.unet.link.ReliableLink/G@213:init|Loading agent uwlink v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.link.ReliableLink] on G
+1580970871467|INFO|org.arl.fjage.shell.ShellAgent/G@216:init|Agent websh init
+1580970871488|INFO|org.arl.unet.addr.AddressResolution/G@217:init|Loading agent arp v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.addr.AddressResolution] on G
+1580970871491|INFO|org.arl.unet.nodeinfo.NodeInfo/G@221:init|Loading agent node v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.nodeinfo.NodeInfo] on G
+1580970871491|INFO|org.arl.unet.sim.SimulationAgent/G@225:invoke|Loading simulator : SimulationAgent
+1580970871491|INFO|org.arl.unet.net.RouteDiscoveryProtocol/G@220:init|Loading agent rdp v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.net.RouteDiscoveryProtocol] on G
+1580970871490|INFO|org.arl.unet.transport.SWTransport/G@222:init|Loading agent transport v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.transport.SWTransport] on G
+1580970871488|INFO|org.arl.unet.net.Router/G@212:init|Loading agent router v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.net.Router] on G
+1580970871497|INFO|org.arl.unet.mac.CSMA/G@218:init|Loading agent mac v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.mac.CSMA] on G
+1580970871497|INFO|org.arl.unet.sim.HalfDuplexModem/G@219:init|Loading agent phy v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.sim.HalfDuplexModem] on G
+1580970871497|INFO|org.arl.unet.phy.Ranging/G@224:init|Loading agent ranging v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.phy.Ranging] on G
+1580970871591|INFO|org.arl.unet.sim.SimulationMasterContainer@1:init|Agents ready...
+1580970871592|INFO|org.arl.unet.sim.SimulationMasterContainer@1:init|Initializing agents...
+1580970871594|INFO|org.arl.fjage.shell.ShellAgent/H@227:init|Agent websh init
+1580970871598|INFO|org.arl.unet.sim.HalfDuplexModem/H@229:init|Loading agent phy v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.sim.HalfDuplexModem] on H
+1580970871601|INFO|org.arl.unet.link.ReliableLink/H@226:init|Loading agent uwlink v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.link.ReliableLink] on H
+1580970871601|INFO|Floodmsga/H@228:init|Loading agent Floodmsga [Floodmsga] on H
+1580970871601|INFO|org.arl.unet.nodeinfo.NodeInfo/H@230:init|Loading agent node v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.nodeinfo.NodeInfo] on H
+1580970871601|INFO|org.arl.unet.sim.SimulationAgent/H@231:invoke|Loading simulator : SimulationAgent
+1580970871699|INFO|org.arl.unet.sim.SimulationMasterContainer@1:init|Agents ready...
+1580970871699|INFO|org.arl.unet.sim.SimulationMasterContainer@1:start|Starting container...
+1580970871699|INFO|org.arl.unet.sim.SimulationMasterContainer@1:start|Starting container...
+1580970871699|INFO|org.arl.unet.sim.SimulationMasterContainer@1:start|Starting container...
+1580970871700|INFO|org.arl.unet.link.ReliableLink/C@153:startup|No PHY specified, auto detecting...
+1580970871700|INFO|org.arl.unet.link.ReliableLink/C@153:startup|Using agent 'phy' for PHY
+1580970871700|INFO|org.arl.unet.link.ReliableLink/C@153:startup|No MAC specified, auto detecting...
+1580970871700|INFO|org.arl.unet.link.ReliableLink/C@153:startup|Using agent 'mac' for MAC
+1580970871700|INFO|org.arl.unet.nodeinfo.NodeInfo/A@131:obtainAddress|Node name is A, address is 1, address size is 8 bits
+1580970871701|INFO|org.arl.unet.transport.SWTransport/C@163:startup|Using router for communication
+1580970871699|INFO|org.arl.unet.link.ReliableLink/A@122:startup|No PHY specified, auto detecting...
+1580970871706|INFO|org.arl.unet.link.ReliableLink/A@122:startup|Using agent 'phy' for PHY
+1580970871706|INFO|org.arl.unet.link.ReliableLink/A@122:startup|No MAC specified, auto detecting...
+1580970871707|INFO|org.arl.unet.link.ReliableLink/A@122:startup|Using agent 'mac' for MAC
+1580970871699|INFO|org.arl.unet.remote.RemoteControl/A@120:startup|Using transport for communication
+1580970871706|INFO|org.arl.unet.link.ReliableLink/B@137:startup|No PHY specified, auto detecting...
+1580970871707|INFO|org.arl.unet.link.ReliableLink/B@137:startup|Using agent 'phy' for PHY
+1580970871707|INFO|org.arl.unet.link.ReliableLink/B@137:startup|No MAC specified, auto detecting...
+1580970871708|INFO|org.arl.unet.link.ReliableLink/B@137:startup|Using agent 'mac' for MAC
+1580970871706|INFO|org.arl.unet.remote.RemoteControl/B@135:startup|Using transport for communication
+1580970871708|INFO|org.arl.unet.remote.RemoteControl/B@135:startup|Using websh for command exec
+1580970871706|INFO|org.arl.unet.nodeinfo.NodeInfo/B@146:obtainAddress|Node name is B, address is 2, address size is 8 bits
+1580970871706|INFO|org.arl.unet.transport.SWTransport/A@132:startup|Using router for communication
+1580970871700|INFO|org.arl.unet.nodeinfo.NodeInfo/C@162:obtainAddress|Node name is C, address is 3, address size is 8 bits
+1580970871700|INFO|org.arl.unet.remote.RemoteControl/C@151:startup|Using transport for communication
+1580970871717|INFO|org.arl.unet.remote.RemoteControl/C@151:startup|Using websh for command exec
+1580970871700|INFO|org.arl.unet.sim.SimulationMasterContainer@1:start|Starting container...
+1580970871718|INFO|org.arl.unet.sim.SimulationMasterContainer@1:start|Starting container...
+1580970871722|INFO|org.arl.unet.remote.RemoteControl/E@181:startup|Using transport for communication
+1580970871723|INFO|org.arl.unet.link.ReliableLink/E@183:startup|No PHY specified, auto detecting...
+1580970871724|INFO|org.arl.unet.link.ReliableLink/E@183:startup|Using agent 'phy' for PHY
+1580970871724|INFO|org.arl.unet.link.ReliableLink/E@183:startup|No MAC specified, auto detecting...
+1580970871724|INFO|org.arl.unet.link.ReliableLink/E@183:startup|Using agent 'mac' for MAC
+1580970871724|INFO|org.arl.unet.transport.SWTransport/E@193:startup|Using router for communication
+1580970871718|INFO|org.arl.unet.transport.SWTransport/D@178:startup|Using router for communication
+1580970871718|INFO|org.arl.unet.nodeinfo.NodeInfo/D@177:obtainAddress|Node name is D, address is 4, address size is 8 bits
+1580970871718|INFO|org.arl.unet.link.ReliableLink/D@168:startup|No PHY specified, auto detecting...
+1580970871725|INFO|org.arl.unet.link.ReliableLink/D@168:startup|Using agent 'phy' for PHY
+1580970871725|INFO|org.arl.unet.link.ReliableLink/D@168:startup|No MAC specified, auto detecting...
+1580970871725|INFO|org.arl.unet.link.ReliableLink/D@168:startup|Using agent 'mac' for MAC
+1580970871718|INFO|org.arl.unet.remote.RemoteControl/D@166:startup|Using transport for communication
+1580970871726|INFO|org.arl.unet.remote.RemoteControl/D@166:startup|Using websh for command exec
+1580970871724|INFO|org.arl.unet.remote.RemoteControl/E@181:startup|Using websh for command exec
+1580970871723|INFO|org.arl.unet.nodeinfo.NodeInfo/E@192:obtainAddress|Node name is E, address is 5, address size is 8 bits
+1580970871722|INFO|org.arl.unet.sim.SimulationMasterContainer@1:start|Starting container...
+1580970871727|INFO|org.arl.unet.remote.RemoteControl/F@196:startup|Using transport for communication
+1580970871729|INFO|org.arl.unet.link.ReliableLink/F@198:startup|No PHY specified, auto detecting...
+1580970871730|INFO|org.arl.unet.link.ReliableLink/F@198:startup|Using agent 'phy' for PHY
+1580970871730|INFO|org.arl.unet.link.ReliableLink/F@198:startup|No MAC specified, auto detecting...
+1580970871730|INFO|org.arl.unet.link.ReliableLink/F@198:startup|Using agent 'mac' for MAC
+1580970871727|INFO|org.arl.unet.sim.SimulationMasterContainer@1:start|Starting container...
+1580970871731|INFO|org.arl.unet.remote.RemoteControl/G@211:startup|Using transport for communication
+1580970871732|INFO|org.arl.unet.link.ReliableLink/G@213:startup|No PHY specified, auto detecting...
+1580970871729|INFO|org.arl.unet.transport.SWTransport/F@208:startup|Using router for communication
+1580970871732|INFO|org.arl.unet.transport.SWTransport/G@222:startup|Using router for communication
+1580970871732|INFO|org.arl.unet.link.ReliableLink/G@213:startup|Using agent 'phy' for PHY
+1580970871745|INFO|org.arl.unet.link.ReliableLink/G@213:startup|No MAC specified, auto detecting...
+1580970871746|INFO|org.arl.unet.link.ReliableLink/G@213:startup|Using agent 'mac' for MAC
+1580970871729|INFO|org.arl.unet.remote.RemoteControl/F@196:startup|Using websh for command exec
+1580970871729|INFO|org.arl.unet.nodeinfo.NodeInfo/F@207:obtainAddress|Node name is F, address is 6, address size is 8 bits
+1580970871732|INFO|org.arl.unet.remote.RemoteControl/G@211:startup|Using websh for command exec
+1580970871731|INFO|org.arl.unet.sim.SimulationMasterContainer@1:start|Starting container...
+1580970871749|INFO|org.arl.unet.link.ReliableLink/H@226:startup|No PHY specified, auto detecting...
+1580970871749|INFO|org.arl.unet.link.ReliableLink/H@226:startup|Using agent 'phy' for PHY
+1580970871750|INFO|org.arl.unet.link.ReliableLink/H@226:startup|No MAC specified, auto detecting...
+1580970871731|INFO|org.arl.unet.nodeinfo.NodeInfo/G@221:obtainAddress|Node name is G, address is 7, address size is 8 bits
+1580970871750|INFO|org.arl.unet.link.ReliableLink/H@226:startup|No MAC detected, continuing without MAC
+1580970871764|INFO|org.arl.unet.transport.SWTransport/B@147:startup|Using router for communication
+1580970871778|INFO|org.arl.unet.nodeinfo.NodeInfo/H@230:obtainAddress|Node name is H, address is 8, address size is 8 bits
+1580970871808|INFO|org.arl.unet.remote.RemoteControl/A@120:startup|Using websh for command exec
+1580970871848|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Simulation agent ready
+1580970871929|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|Simulation agent ready
+1580970871945|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|Simulation agent ready
+1580970881863|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:1
+1580970881918|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:2379607458]
+1580970881986|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:2991670910 txDuration:1000]
+1580970881986|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:2673148518 txDuration:1000]
+1580970882031|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:2991670910]
+1580970882033|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:2673148518]
+1580970882237|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:2673457366]
+1580970882375|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:2992237729]
+1580970882836|INFO|Floodmsga/H@228:println| ack 1
+1580970883534|INFO|Floodmsga/H@228:println|from 1  1
+1580970883534|INFO|Floodmsga/H@228:println| ack 2
+1580970891852|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:2
+1580970891905|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:2389603458]
+1580970891965|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3001656910 txDuration:1000]
+1580970891977|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:2683145518 txDuration:1000]
+1580970892016|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3001656910]
+1580970892029|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:2683145518]
+1580970892229|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:2683453366]
+1580970892363|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3002233729]
+1580970892826|INFO|Floodmsga/H@228:println| ack 2
+1580970893527|INFO|Floodmsga/H@228:println|from 1  2
+1580970893528|INFO|Floodmsga/H@228:println| ack 3
+1580970901851|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:3
+1580970901903|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:2399602458]
+1580970901963|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:2693129518 txDuration:1000]
+1580970901964|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3011650910 txDuration:1000]
+1580970902011|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3011650910]
+1580970902011|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:2693129518]
+1580970902229|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:2693452366]
+1580970902365|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3012232729]
+1580970902832|INFO|Floodmsga/H@228:println| ack 3
+1580970903527|INFO|Floodmsga/H@228:println|from 1  3
+1580970903528|INFO|Floodmsga/H@228:println| ack 4
+1580970911852|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:4
+1580970911904|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:2409603458]
+1580970911939|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3021628910 txDuration:1000]
+1580970911951|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:2703118518 txDuration:1000]
+1580970911989|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3021628910]
+1580970912002|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:2703118518]
+1580970912228|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:2703453366]
+1580970912365|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3022233729]
+1580970912825|INFO|Floodmsga/H@228:println| ack 4
+1580970913526|INFO|Floodmsga/H@228:println|from 1  4
+1580970913527|INFO|Floodmsga/H@228:println| ack 5
+1580970913855|WARNING|org.arl.fjage.shell.GroovyScriptEngine@140:error|Groovy script execution failed
+
+Unknown command or property: clear
+Stack trace: ...
+   org.arl.fjage.shell.BaseGroovyScript.propertyMissing(BaseGroovyScript.groovy:669) ...
+   Script3.run(Script3.groovy:1) ...
+   org.arl.fjage.shell.GroovyScriptEngine.exec(GroovyScriptEngine.java:180)
+   org.arl.fjage.shell.ShellAgent$2.lambda$run$0(ShellAgent.java:215)
+   org.arl.fjage.shell.ShellAgent$1.action(ShellAgent.java:137)
+   org.arl.fjage.Agent.run(Agent.java:747) ...
+
+1580970917583|WARNING|org.arl.fjage.shell.GroovyScriptEngine@140:error|Groovy script execution failed
+
+Unknown command or property: clr
+Stack trace: ...
+   org.arl.fjage.shell.BaseGroovyScript.propertyMissing(BaseGroovyScript.groovy:669) ...
+   Script6.run(Script6.groovy:1) ...
+   org.arl.fjage.shell.GroovyScriptEngine.exec(GroovyScriptEngine.java:180)
+   org.arl.fjage.shell.ShellAgent$2.lambda$run$0(ShellAgent.java:215)
+   org.arl.fjage.shell.ShellAgent$1.action(ShellAgent.java:137)
+   org.arl.fjage.Agent.run(Agent.java:747) ...
+
+1580970921851|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:5
+1580970921903|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:2419603458]
+1580970921938|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3031629910 txDuration:1000]
+1580970921951|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:2713119518 txDuration:1000]
+1580970921990|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3031629910]
+1580970922002|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:2713119518]
+1580970922228|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:2713453366]
+1580970922364|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3032233729]
+1580970922825|INFO|Floodmsga/H@228:println| ack 5
+1580970923526|INFO|Floodmsga/H@228:println|from 1  5
+1580970923526|INFO|Floodmsga/H@228:println| ack 6
+1580970931852|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:6
+1580970931904|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:2429604458]
+1580970931941|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3041630910 txDuration:1000]
+1580970931949|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:2723118518 txDuration:1000]
+1580970931990|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3041630910]
+1580970932001|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:2723118518]
+1580970932229|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:2723454366]
+1580970932365|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3042234729]
+1580970932826|INFO|Floodmsga/H@228:println| ack 6
+1580970933526|INFO|Floodmsga/H@228:println|from 1  6
+1580970933526|INFO|Floodmsga/H@228:println| ack 7
+1580970941851|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:7
+1580970941903|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:2439603458]
+1580970941938|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3051629910 txDuration:1000]
+1580970941949|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:2733117518 txDuration:1000]
+1580970941991|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3051629910]
+1580970942001|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:2733117518]
+1580970942229|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:2733453366]
+1580970942363|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3052233729]
+1580970942826|INFO|Floodmsga/H@228:println| ack 7
+1580970943527|INFO|Floodmsga/H@228:println|from 1  7
+1580970943527|INFO|Floodmsga/H@228:println| ack 8
+1580970951851|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:8
+1580970951903|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:2449603458]
+1580970951938|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3061628910 txDuration:1000]
+1580970951954|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:2743122518 txDuration:1000]
+1580970951990|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3061628910]
+1580970952006|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:2743122518]
+1580970952227|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:2743453366]
+1580970952362|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3062233729]
+1580970952825|INFO|Floodmsga/H@228:println| ack 8
+1580970953527|INFO|Floodmsga/H@228:println|from 1  8
+1580970953528|INFO|Floodmsga/H@228:println| ack 9
+1580970958513|WARNING|org.arl.fjage.shell.GroovyScriptEngine@140:error|Groovy script execution failed
+
+groovy.lang.MissingMethodException: No signature of method: org.arl.fjage.AgentID.minus() is applicable for argument types: (java.lang.String) values: [remote - access to remote service
+state - access to state manager service
+node - access to node information service
+unet - basic unet commands
+bb - access to baseband service
+mac - access to medium access control (MAC) service
+arp - access to address resolution service
+bbmon - baseband signal monitor
+rdp - access to route discovery/maintenance service
+phy - access to physical service
+router - access to routing service
+shell - basic shell commands
+transport - access to transport service
+ranging - access to ranging service
+uwlink - access to underwater data link service
+]
+Possible solutions: find(), find(groovy.lang.Closure), is(java.lang.Object), any(), send(org.arl.fjage.Message), any(groovy.lang.Closure)
+Stack trace: ...
+   Script12.run(Script12.groovy:1) ...
+   org.arl.fjage.shell.GroovyScriptEngine.exec(GroovyScriptEngine.java:180)
+   org.arl.fjage.shell.ShellAgent$2.lambda$run$0(ShellAgent.java:215)
+   org.arl.fjage.shell.ShellAgent$1.action(ShellAgent.java:137)
+   org.arl.fjage.Agent.run(Agent.java:747) ...
+
+1580970961851|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:9
+1580970961903|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:2459603458]
+1580970961949|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3071641910 txDuration:1000]
+1580970961954|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:2753122518 txDuration:1000]
+1580970962000|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3071641910]
+1580970962005|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:2753122518]
+1580970962228|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:2753453366]
+1580970962363|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3072233729]
+1580970962825|INFO|Floodmsga/H@228:println| ack 9
+1580970963525|INFO|Floodmsga/H@228:println|from 1  9
+1580970963526|INFO|Floodmsga/H@228:println| ack 10
+1580970963539|WARNING|org.arl.fjage.shell.GroovyScriptEngine@140:error|Groovy script execution failed
+
+groovy.lang.MissingMethodException: No signature of method: org.arl.fjage.AgentID.call() is applicable for argument types: (java.lang.String) values: [remote - access to remote service
+state - access to state manager service
+node - access to node information service
+unet - basic unet commands
+bb - access to baseband service
+mac - access to medium access control (MAC) service
+arp - access to address resolution service
+bbmon - baseband signal monitor
+rdp - access to route discovery/maintenance service
+phy - access to physical service
+router - access to routing service
+shell - basic shell commands
+transport - access to transport service
+ranging - access to ranging service
+uwlink - access to underwater data link service
+]
+Possible solutions: wait(), any(), wait(long), any(groovy.lang.Closure), each(groovy.lang.Closure), dump()
+Stack trace: ...
+   Script14.run(Script14.groovy:1) ...
+   org.arl.fjage.shell.GroovyScriptEngine.exec(GroovyScriptEngine.java:180)
+   org.arl.fjage.shell.ShellAgent$2.lambda$run$0(ShellAgent.java:215)
+   org.arl.fjage.shell.ShellAgent$1.action(ShellAgent.java:137)
+   org.arl.fjage.Agent.run(Agent.java:747) ...
+
+1580970971851|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:10
+1580970971904|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:2469603458]
+1580970971939|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3081630910 txDuration:1000]
+1580970971948|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:2763116518 txDuration:1000]
+1580970971991|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3081630910]
+1580970972000|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:2763116518]
+1580970972228|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:2763453366]
+1580970972364|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3082233729]
+1580970972824|INFO|Floodmsga/H@228:println| ack 10
+1580970973525|INFO|Floodmsga/H@228:println|from 1  10
+1580970973526|INFO|Floodmsga/H@228:println| ack 11
+1580970981851|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:11
+1580970981903|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:2479603458]
+1580970981933|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3091625910 txDuration:1000]
+1580970981955|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:2773123518 txDuration:1000]
+1580970981985|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3091625910]
+1580970982005|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:2773123518]
+1580970982228|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:2773453366]
+1580970982363|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3092233729]
+1580970982826|INFO|Floodmsga/H@228:println| ack 11
+1580970983528|INFO|Floodmsga/H@228:println|from 1  11
+1580970983529|INFO|Floodmsga/H@228:println| ack 12
+1580970991852|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:12
+1580970991903|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:2489603458]
+1580970991939|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3101630910 txDuration:1000]
+1580970991949|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:2783118518 txDuration:1000]
+1580970991990|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3101630910]
+1580970992000|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:2783118518]
+1580970992230|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:2783453366]
+1580970992365|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3102233729]
+1580970992826|INFO|Floodmsga/H@228:println| ack 12
+1580970993526|INFO|Floodmsga/H@228:println|from 1  12
+1580970993526|INFO|Floodmsga/H@228:println| ack 13
+1580971001851|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:13
+1580971001902|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:2499603458]
+1580971001938|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3111628910 txDuration:1000]
+1580971001949|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:2793118518 txDuration:1000]
+1580971001987|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3111628910]
+1580971002001|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:2793118518]
+1580971002228|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:2793453366]
+1580971002364|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3112233729]
+1580971002827|INFO|Floodmsga/H@228:println| ack 13
+1580971003525|INFO|Floodmsga/H@228:println|from 1  13
+1580971003525|INFO|Floodmsga/H@228:println| ack 14
+1580971011850|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:14
+1580971011902|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:2509602458]
+1580971011935|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3121626910 txDuration:1000]
+1580971011951|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:2803119518 txDuration:1000]
+1580971011987|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3121626910]
+1580971012001|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:2803119518]
+1580971012228|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:2803452366]
+1580971012364|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3122232729]
+1580971012823|INFO|Floodmsga/H@228:println| ack 14
+1580971013525|INFO|Floodmsga/H@228:println|from 1  14
+1580971013525|INFO|Floodmsga/H@228:println| ack 15
+1580971021851|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:15
+1580971021903|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:2519603458]
+1580971021934|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3131626910 txDuration:1000]
+1580971021949|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:2813117518 txDuration:1000]
+1580971021986|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3131626910]
+1580971022000|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:2813117518]
+1580971022228|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:2813453366]
+1580971022364|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3132233729]
+1580971022825|INFO|Floodmsga/H@228:println| ack 15
+1580971023526|INFO|Floodmsga/H@228:println|from 1  15
+1580971023526|INFO|Floodmsga/H@228:println| ack 16
+1580971031855|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:16
+1580971031905|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:2529606458]
+1580971031936|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3141626910 txDuration:1000]
+1580971031951|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:2823120518 txDuration:1000]
+1580971031991|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3141626910]
+1580971032003|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:2823120518]
+1580971032232|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:2823456366]
+1580971032368|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3142236729]
+1580971032827|INFO|Floodmsga/H@228:println| ack 16
+1580971033531|INFO|Floodmsga/H@228:println|from 1  16
+1580971033531|INFO|Floodmsga/H@228:println| ack 17
+1580971041851|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:17
+1580971041903|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:2539603458]
+1580971041937|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3151628910 txDuration:1000]
+1580971041949|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:2833117518 txDuration:1000]
+1580971041988|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3151628910]
+1580971042000|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:2833117518]
+1580971042229|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:2833453366]
+1580971042363|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3152233729]
+1580971042824|INFO|Floodmsga/H@228:println| ack 17
+1580971043524|INFO|Floodmsga/H@228:println|from 1  17
+1580971043525|INFO|Floodmsga/H@228:println| ack 18
+1580971051851|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:18
+1580971051902|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:2549603458]
+1580971051936|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3161627910 txDuration:1000]
+1580971051950|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:2843118518 txDuration:1000]
+1580971051989|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3161627910]
+1580971052002|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:2843118518]
+1580971052228|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:2843453366]
+1580971052363|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3162233729]
+1580971052826|INFO|Floodmsga/H@228:println| ack 18
+1580971053526|INFO|Floodmsga/H@228:println|from 1  18
+1580971053527|INFO|Floodmsga/H@228:println| ack 19
+1580971061850|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:19
+1580971061901|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:2559602458]
+1580971061938|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3171628910 txDuration:1000]
+1580971061951|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:2853119518 txDuration:1000]
+1580971061989|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3171628910]
+1580971062001|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:2853119518]
+1580971062226|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:2853452366]
+1580971062363|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3172232729]
+1580971062824|INFO|Floodmsga/H@228:println| ack 19
+1580971063525|INFO|Floodmsga/H@228:println|from 1  19
+1580971063528|INFO|Floodmsga/H@228:println| ack 20
+1580971071849|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:20
+1580971071901|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:2569601458]
+1580971071939|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3181629910 txDuration:1000]
+1580971071949|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:2863118518 txDuration:1000]
+1580971071989|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3181629910]
+1580971072000|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:2863118518]
+1580971072227|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:2863451366]
+1580971072363|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3182231729]
+1580971072823|INFO|Floodmsga/H@228:println| ack 20
+1580971073524|INFO|Floodmsga/H@228:println|from 1  20
+1580971073525|INFO|Floodmsga/H@228:println| ack 21
+1580971081849|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:21
+1580971081901|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:2579602458]
+1580971081937|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3191628910 txDuration:1000]
+1580971081953|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:2873120518 txDuration:1000]
+1580971081989|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3191628910]
+1580971082004|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:2873120518]
+1580971082227|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:2873452366]
+1580971082364|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3192232729]
+1580971082825|INFO|Floodmsga/H@228:println| ack 21
+1580971083524|INFO|Floodmsga/H@228:println|from 1  21
+1580971083524|INFO|Floodmsga/H@228:println| ack 22
+1580971091850|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:22
+1580971091902|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:2589602458]
+1580971091935|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3201626910 txDuration:1000]
+1580971091956|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:2883122518 txDuration:1000]
+1580971091985|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3201626910]
+1580971092005|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:2883122518]
+1580971092227|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:2883452366]
+1580971092364|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3202232729]
+1580971092825|INFO|Floodmsga/H@228:println| ack 22
+1580971093525|INFO|Floodmsga/H@228:println|from 1  22
+1580971093525|INFO|Floodmsga/H@228:println| ack 23
+1580971101850|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:23
+1580971101902|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:2599602458]
+1580971101936|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3211627910 txDuration:1000]
+1580971101953|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:2893121518 txDuration:1000]
+1580971101988|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3211627910]
+1580971102004|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:2893121518]
+1580971102230|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:2893452366]
+1580971102362|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3212232729]
+1580971102826|INFO|Floodmsga/H@228:println| ack 23
+1580971103527|INFO|Floodmsga/H@228:println|from 1  23
+1580971103527|INFO|Floodmsga/H@228:println| ack 24
+1580971111850|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:24
+1580971111902|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:2609602458]
+1580971111939|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3221629910 txDuration:1000]
+1580971111950|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:2903118518 txDuration:1000]
+1580971111990|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3221629910]
+1580971112002|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:2903118518]
+1580971112229|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:2903452366]
+1580971112362|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3222232729]
+1580971112823|INFO|Floodmsga/H@228:println| ack 24
+1580971113524|INFO|Floodmsga/H@228:println|from 1  24
+1580971113525|INFO|Floodmsga/H@228:println| ack 25
+1580971121851|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:25
+1580971121901|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:2619602458]
+1580971121937|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3231628910 txDuration:1000]
+1580971121952|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:2913120518 txDuration:1000]
+1580971121989|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3231628910]
+1580971122002|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:2913120518]
+1580971122227|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:2913452366]
+1580971122364|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3232232729]
+1580971122826|INFO|Floodmsga/H@228:println| ack 25
+1580971123527|INFO|Floodmsga/H@228:println|from 1  25
+1580971123527|INFO|Floodmsga/H@228:println| ack 26
+1580971131851|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:26
+1580971131903|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:2629603458]
+1580971131938|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3241629910 txDuration:1000]
+1580971131952|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:2923119518 txDuration:1000]
+1580971131989|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3241629910]
+1580971132002|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:2923119518]
+1580971132228|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:2923453366]
+1580971132364|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3242233729]
+1580971132825|INFO|Floodmsga/H@228:println| ack 26
+1580971133526|INFO|Floodmsga/H@228:println|from 1  26
+1580971133527|INFO|Floodmsga/H@228:println| ack 27
+1580971141850|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:27
+1580971141902|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:2639602458]
+1580971141957|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3251649910 txDuration:1000]
+1580971141959|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:2933127518 txDuration:1000]
+1580971142010|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3251649910]
+1580971142010|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:2933127518]
+1580971142227|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:2933452366]
+1580971142362|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3252232729]
+1580971142824|INFO|Floodmsga/H@228:println| ack 27
+1580971143524|INFO|Floodmsga/H@228:println|from 1  27
+1580971143524|INFO|Floodmsga/H@228:println| ack 28
+1580971151850|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:28
+1580971151902|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:2649603458]
+1580971151939|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3261629910 txDuration:1000]
+1580971151952|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:2943120518 txDuration:1000]
+1580971151989|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3261629910]
+1580971152002|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:2943120518]
+1580971152228|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:2943453366]
+1580971152364|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3262233729]
+1580971152827|INFO|Floodmsga/H@228:println| ack 28
+1580971153527|INFO|Floodmsga/H@228:println|from 1  28
+1580971153527|INFO|Floodmsga/H@228:println| ack 29
+1580971161850|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:29
+1580971161902|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:2659602458]
+1580971161937|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3271628910 txDuration:1000]
+1580971161952|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:2953120518 txDuration:1000]
+1580971161988|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3271628910]
+1580971162002|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:2953120518]
+1580971162228|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:2953452366]
+1580971162364|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3272232729]
+1580971162825|INFO|Floodmsga/H@228:println| ack 29
+1580971163525|INFO|Floodmsga/H@228:println|from 1  29
+1580971163525|INFO|Floodmsga/H@228:println| ack 30
+1580971171851|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:30
+1580971171901|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:2669603458]
+1580971171937|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3281629910 txDuration:1000]
+1580971171948|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:2963117518 txDuration:1000]
+1580971171989|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3281629910]
+1580971172000|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:2963117518]
+1580971172228|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:2963453366]
+1580971172364|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3282233729]
+1580971172825|INFO|Floodmsga/H@228:println| ack 30
+1580971173525|INFO|Floodmsga/H@228:println|from 1  30
+1580971173526|INFO|Floodmsga/H@228:println| ack 31
+1580971181850|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:31
+1580971181902|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:2679602458]
+1580971181937|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3291628910 txDuration:1000]
+1580971181951|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:2973119518 txDuration:1000]
+1580971181988|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3291628910]
+1580971182003|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:2973119518]
+1580971182228|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:2973452366]
+1580971182364|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3292232729]
+1580971182824|INFO|Floodmsga/H@228:println| ack 31
+1580971183525|INFO|Floodmsga/H@228:println|from 1  31
+1580971183526|INFO|Floodmsga/H@228:println| ack 32
+1580971191850|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:32
+1580971191902|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:2689602458]
+1580971191938|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3301628910 txDuration:1000]
+1580971191949|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:2983116518 txDuration:1000]
+1580971191988|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3301628910]
+1580971191999|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:2983116518]
+1580971192227|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:2983452366]
+1580971192363|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3302232729]
+1580971192824|INFO|Floodmsga/H@228:println| ack 32
+1580971193524|INFO|Floodmsga/H@228:println|from 1  32
+1580971193525|INFO|Floodmsga/H@228:println| ack 33
+1580971201850|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:33
+1580971201902|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:2699602458]
+1580971201937|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3311628910 txDuration:1000]
+1580971201951|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:2993119518 txDuration:1000]
+1580971201988|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3311628910]
+1580971202002|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:2993119518]
+1580971202228|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:2993452366]
+1580971202364|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3312232729]
+1580971202826|INFO|Floodmsga/H@228:println| ack 33
+1580971203527|INFO|Floodmsga/H@228:println|from 1  33
+1580971203527|INFO|Floodmsga/H@228:println| ack 34
+1580971211850|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:34
+1580971211902|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:2709602458]
+1580971211938|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3321628910 txDuration:1000]
+1580971211950|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:3003118518 txDuration:1000]
+1580971211993|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3321628910]
+1580971212002|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:3003118518]
+1580971212228|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3003452366]
+1580971212364|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3322232729]
+1580971212824|INFO|Floodmsga/H@228:println| ack 34
+1580971213525|INFO|Floodmsga/H@228:println|from 1  34
+1580971213525|INFO|Floodmsga/H@228:println| ack 35
+1580971221850|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:35
+1580971221900|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:2719602458]
+1580971221936|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3331627910 txDuration:1000]
+1580971221953|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:3013121518 txDuration:1000]
+1580971221987|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3331627910]
+1580971222004|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:3013121518]
+1580971222226|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3013452366]
+1580971222363|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3332232729]
+1580971222824|INFO|Floodmsga/H@228:println| ack 35
+1580971223524|INFO|Floodmsga/H@228:println|from 1  35
+1580971223524|INFO|Floodmsga/H@228:println| ack 36
+1580971231851|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:36
+1580971231902|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:2729602458]
+1580971231934|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3341626910 txDuration:1000]
+1580971231953|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:3023121518 txDuration:1000]
+1580971231986|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3341626910]
+1580971232005|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:3023121518]
+1580971232228|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3023452366]
+1580971232365|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3342232729]
+1580971232825|INFO|Floodmsga/H@228:println| ack 36
+1580971233525|INFO|Floodmsga/H@228:println|from 1  36
+1580971233526|INFO|Floodmsga/H@228:println| ack 37
+1580971241851|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:37
+1580971241902|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:2739602458]
+1580971241940|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3351631910 txDuration:1000]
+1580971241948|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:3033116518 txDuration:1000]
+1580971241992|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3351631910]
+1580971241999|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:3033116518]
+1580971242228|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3033452366]
+1580971242363|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3352232729]
+1580971242824|INFO|Floodmsga/H@228:println| ack 37
+1580971243525|INFO|Floodmsga/H@228:println|from 1  37
+1580971243526|INFO|Floodmsga/H@228:println| ack 38
+1580971251850|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:38
+1580971251902|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:2749602458]
+1580971251937|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3361628910 txDuration:1000]
+1580971251952|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:3043120518 txDuration:1000]
+1580971251988|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3361628910]
+1580971252003|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:3043120518]
+1580971252228|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3043452366]
+1580971252364|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3362232729]
+1580971252827|INFO|Floodmsga/H@228:println| ack 38
+1580971253527|INFO|Floodmsga/H@228:println|from 1  38
+1580971253527|INFO|Floodmsga/H@228:println| ack 39
+1580971261850|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:39
+1580971261902|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:2759602458]
+1580971261937|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3371627910 txDuration:1000]
+1580971261954|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:3053121518 txDuration:1000]
+1580971261988|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3371627910]
+1580971262005|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:3053121518]
+1580971262229|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3053452366]
+1580971262364|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3372232729]
+1580971262824|INFO|Floodmsga/H@228:println| ack 39
+1580971263525|INFO|Floodmsga/H@228:println|from 1  39
+1580971263526|INFO|Floodmsga/H@228:println| ack 40
+1580971271849|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:40
+1580971271901|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:2769602458]
+1580971271937|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3381628910 txDuration:1000]
+1580971271948|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:3063116518 txDuration:1000]
+1580971271988|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3381628910]
+1580971271998|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:3063116518]
+1580971272226|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3063452366]
+1580971272363|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3382232729]
+1580971272824|INFO|Floodmsga/H@228:println| ack 40
+1580971273524|INFO|Floodmsga/H@228:println|from 1  40
+1580971273525|INFO|Floodmsga/H@228:println| ack 41
+1580971281850|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:41
+1580971281902|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:2779602458]
+1580971281937|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3391628910 txDuration:1000]
+1580971281952|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:3073120518 txDuration:1000]
+1580971281988|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3391628910]
+1580971282004|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:3073120518]
+1580971282227|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3073452366]
+1580971282363|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3392232729]
+1580971282824|INFO|Floodmsga/H@228:println| ack 41
+1580971283525|INFO|Floodmsga/H@228:println|from 1  41
+1580971283526|INFO|Floodmsga/H@228:println| ack 42
+1580971291850|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:42
+1580971291901|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:2789602458]
+1580971291936|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3401628910 txDuration:1000]
+1580971291953|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:3083121518 txDuration:1000]
+1580971291988|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3401628910]
+1580971292006|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:3083121518]
+1580971292227|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3083452366]
+1580971292363|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3402232729]
+1580971292824|INFO|Floodmsga/H@228:println| ack 42
+1580971293524|INFO|Floodmsga/H@228:println|from 1  42
+1580971293525|INFO|Floodmsga/H@228:println| ack 43
+1580971301850|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:43
+1580971301902|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:2799602458]
+1580971301938|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3411628910 txDuration:1000]
+1580971301948|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:3093116518 txDuration:1000]
+1580971301991|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3411628910]
+1580971301998|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:3093116518]
+1580971302228|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3093452366]
+1580971302365|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3412232729]
+1580971302826|INFO|Floodmsga/H@228:println| ack 43
+1580971303526|INFO|Floodmsga/H@228:println|from 1  43
+1580971303526|INFO|Floodmsga/H@228:println| ack 44
+1580971311851|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:44
+1580971311902|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:2809603458]
+1580971311938|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3421628910 txDuration:1000]
+1580971311948|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:3103116518 txDuration:1000]
+1580971311988|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3421628910]
+1580971312000|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:3103116518]
+1580971312228|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3103453366]
+1580971312364|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3422233729]
+1580971312825|INFO|Floodmsga/H@228:println| ack 44
+1580971313524|INFO|Floodmsga/H@228:println|from 1  44
+1580971313525|INFO|Floodmsga/H@228:println| ack 45
+1580971321850|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:45
+1580971321902|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:2819602458]
+1580971321937|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3431628910 txDuration:1000]
+1580971321954|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:3113121518 txDuration:1000]
+1580971321988|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3431628910]
+1580971322004|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:3113121518]
+1580971322227|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3113452366]
+1580971322362|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3432232729]
+1580971322824|INFO|Floodmsga/H@228:println| ack 45
+1580971323526|INFO|Floodmsga/H@228:println|from 1  45
+1580971323526|INFO|Floodmsga/H@228:println| ack 46
+1580971331850|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:46
+1580971331902|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:2829602458]
+1580971331937|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3441627910 txDuration:1000]
+1580971331951|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:3123119518 txDuration:1000]
+1580971331988|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3441627910]
+1580971332003|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:3123119518]
+1580971332226|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3123452366]
+1580971332363|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3442232729]
+1580971332823|INFO|Floodmsga/H@228:println| ack 46
+1580971333524|INFO|Floodmsga/H@228:println|from 1  46
+1580971333525|INFO|Floodmsga/H@228:println| ack 47
+1580971341850|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:47
+1580971341902|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:2839602458]
+1580971341937|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3451628910 txDuration:1000]
+1580971341951|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:3133118518 txDuration:1000]
+1580971341988|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3451628910]
+1580971342001|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:3133118518]
+1580971342228|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3133452366]
+1580971342364|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3452232729]
+1580971342825|INFO|Floodmsga/H@228:println| ack 47
+1580971343524|INFO|Floodmsga/H@228:println|from 1  47
+1580971343525|INFO|Floodmsga/H@228:println| ack 48
+1580971351850|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:48
+1580971351902|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:2849602458]
+1580971351937|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3461627910 txDuration:1000]
+1580971351950|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:3143117518 txDuration:1000]
+1580971351988|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3461627910]
+1580971352001|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:3143117518]
+1580971352227|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3143452366]
+1580971352363|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3462232729]
+1580971352826|INFO|Floodmsga/H@228:println| ack 48
+1580971353525|INFO|Floodmsga/H@228:println|from 1  48
+1580971353525|INFO|Floodmsga/H@228:println| ack 49
+1580971361850|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:49
+1580971361902|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:2859602458]
+1580971361937|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3471628910 txDuration:1000]
+1580971361950|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:3153118518 txDuration:1000]
+1580971361988|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3471628910]
+1580971362002|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:3153118518]
+1580971362227|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3153452366]
+1580971362363|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3472232729]
+1580971362823|INFO|Floodmsga/H@228:println| ack 49
+1580971363524|INFO|Floodmsga/H@228:println|from 1  49
+1580971363525|INFO|Floodmsga/H@228:println| ack 50
+1580971371850|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:50
+1580971371900|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:2869602458]
+1580971371936|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3481627910 txDuration:1000]
+1580971371951|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:3163119518 txDuration:1000]
+1580971371987|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3481627910]
+1580971372002|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:3163119518]
+1580971372227|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3163452366]
+1580971372363|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3482232729]
+1580971372823|INFO|Floodmsga/H@228:println| ack 50
+1580971373524|INFO|Floodmsga/H@228:println|from 1  50
+1580971373524|INFO|Floodmsga/H@228:println| ack 51
+1580971381849|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:51
+1580971381901|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:2879602458]
+1580971381937|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3491627910 txDuration:1000]
+1580971381949|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:3173117518 txDuration:1000]
+1580971381987|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3491627910]
+1580971381999|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:3173117518]
+1580971382226|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3173452366]
+1580971382362|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3492232729]
+1580971382823|INFO|Floodmsga/H@228:println| ack 51
+1580971383524|INFO|Floodmsga/H@228:println|from 1  51
+1580971383524|INFO|Floodmsga/H@228:println| ack 52
+1580971391850|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:52
+1580971391902|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:2889602458]
+1580971391936|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3501628910 txDuration:1000]
+1580971391953|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:3183121518 txDuration:1000]
+1580971391990|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3501628910]
+1580971392005|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:3183121518]
+1580971392227|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3183452366]
+1580971392363|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3502232729]
+1580971392824|INFO|Floodmsga/H@228:println| ack 52
+1580971393525|INFO|Floodmsga/H@228:println|from 1  52
+1580971393525|INFO|Floodmsga/H@228:println| ack 53
+1580971401850|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:53
+1580971401902|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:2899602458]
+1580971401936|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3511628910 txDuration:1000]
+1580971401951|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:3193119518 txDuration:1000]
+1580971401987|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3511628910]
+1580971402003|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:3193119518]
+1580971402228|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3193452366]
+1580971402364|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3512232729]
+1580971402827|INFO|Floodmsga/H@228:println| ack 53
+1580971403526|INFO|Floodmsga/H@228:println|from 1  53
+1580971403526|INFO|Floodmsga/H@228:println| ack 54
+1580971411850|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:54
+1580971411902|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:2909602458]
+1580971411937|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3521628910 txDuration:1000]
+1580971411950|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:3203118518 txDuration:1000]
+1580971411988|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3521628910]
+1580971412001|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:3203118518]
+1580971412227|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3203452366]
+1580971412363|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3522232729]
+1580971412823|INFO|Floodmsga/H@228:println| ack 54
+1580971413524|INFO|Floodmsga/H@228:println|from 1  54
+1580971413524|INFO|Floodmsga/H@228:println| ack 55
+1580971421849|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:55
+1580971421901|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:2919602458]
+1580971421937|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3531628910 txDuration:1000]
+1580971421947|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:3213116518 txDuration:1000]
+1580971421988|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3531628910]
+1580971421998|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:3213116518]
+1580971422226|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3213452366]
+1580971422363|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3532232729]
+1580971422823|INFO|Floodmsga/H@228:println| ack 55
+1580971423523|INFO|Floodmsga/H@228:println|from 1  55
+1580971423524|INFO|Floodmsga/H@228:println| ack 56
+1580971431850|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:56
+1580971431901|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:2929602458]
+1580971431937|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3541628910 txDuration:1000]
+1580971431951|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:3223119518 txDuration:1000]
+1580971431989|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3541628910]
+1580971432003|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:3223119518]
+1580971432227|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3223452366]
+1580971432364|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3542232729]
+1580971432824|INFO|Floodmsga/H@228:println| ack 56
+1580971433523|INFO|Floodmsga/H@228:println|from 1  56
+1580971433524|INFO|Floodmsga/H@228:println| ack 57
+1580971441850|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:57
+1580971441902|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:2939602458]
+1580971441938|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3551629910 txDuration:1000]
+1580971441949|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:3233117518 txDuration:1000]
+1580971441989|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3551629910]
+1580971441999|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:3233117518]
+1580971442226|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3233452366]
+1580971442363|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3552232729]
+1580971442823|INFO|Floodmsga/H@228:println| ack 57
+1580971443525|INFO|Floodmsga/H@228:println|from 1  57
+1580971443525|INFO|Floodmsga/H@228:println| ack 58
+1580971451849|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:58
+1580971451901|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:2949602458]
+1580971451937|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3561627910 txDuration:1000]
+1580971451950|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:3243118518 txDuration:1000]
+1580971451986|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3561627910]
+1580971452001|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:3243118518]
+1580971452226|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3243452366]
+1580971452362|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3562232729]
+1580971452825|INFO|Floodmsga/H@228:println| ack 58
+1580971453525|INFO|Floodmsga/H@228:println|from 1  58
+1580971453525|INFO|Floodmsga/H@228:println| ack 59
+1580971461851|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:59
+1580971461902|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:2959603458]
+1580971461934|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3571625910 txDuration:1000]
+1580971461949|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:3253117518 txDuration:1000]
+1580971461986|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3571625910]
+1580971462000|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:3253117518]
+1580971462228|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3253453366]
+1580971462364|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3572233729]
+1580971462826|INFO|Floodmsga/H@228:println| ack 59
+1580971463524|INFO|Floodmsga/H@228:println|from 1  59
+1580971463524|INFO|Floodmsga/H@228:println| ack 60
+1580971471850|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:60
+1580971471901|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:2969602458]
+1580971471938|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3581629910 txDuration:1000]
+1580971471950|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:3263117518 txDuration:1000]
+1580971471989|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3581629910]
+1580971472001|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:3263117518]
+1580971472227|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3263452366]
+1580971472363|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3582232729]
+1580971472824|INFO|Floodmsga/H@228:println| ack 60
+1580971473524|INFO|Floodmsga/H@228:println|from 1  60
+1580971473525|INFO|Floodmsga/H@228:println| ack 61
+1580971481850|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:61
+1580971481902|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:2979602458]
+1580971481936|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3591628910 txDuration:1000]
+1580971481951|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:3273119518 txDuration:1000]
+1580971481990|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3591628910]
+1580971482001|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:3273119518]
+1580971482227|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3273452366]
+1580971482362|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3592232729]
+1580971482825|INFO|Floodmsga/H@228:println| ack 61
+1580971483524|INFO|Floodmsga/H@228:println|from 1  61
+1580971483525|INFO|Floodmsga/H@228:println| ack 62
+1580971491850|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:62
+1580971491902|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:2989602458]
+1580971491937|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3601628910 txDuration:1000]
+1580971491948|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:3283116518 txDuration:1000]
+1580971491988|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3601628910]
+1580971491998|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:3283116518]
+1580971492228|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3283452366]
+1580971492363|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3602232729]
+1580971492825|INFO|Floodmsga/H@228:println| ack 62
+1580971493525|INFO|Floodmsga/H@228:println|from 1  62
+1580971493526|INFO|Floodmsga/H@228:println| ack 63
+1580971501850|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:63
+1580971501902|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:2999603458]
+1580971501941|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3611631910 txDuration:1000]
+1580971501949|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:3293117518 txDuration:1000]
+1580971501992|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3611631910]
+1580971501999|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:3293117518]
+1580971502227|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3293453366]
+1580971502363|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3612233729]
+1580971502826|INFO|Floodmsga/H@228:println| ack 63
+1580971503527|INFO|Floodmsga/H@228:println|from 1  63
+1580971503527|INFO|Floodmsga/H@228:println| ack 64
+1580971511850|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:64
+1580971511902|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:3009602458]
+1580971511939|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3621628910 txDuration:1000]
+1580971511949|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:3303117518 txDuration:1000]
+1580971511989|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3621628910]
+1580971512000|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:3303117518]
+1580971512228|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3303452366]
+1580971512363|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3622232729]
+1580971512824|INFO|Floodmsga/H@228:println| ack 64
+1580971513525|INFO|Floodmsga/H@228:println|from 1  64
+1580971513525|INFO|Floodmsga/H@228:println| ack 65
+1580971521850|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:65
+1580971521901|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:3019602458]
+1580971521937|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3631627910 txDuration:1000]
+1580971521950|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:3313118518 txDuration:1000]
+1580971521988|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3631627910]
+1580971522001|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:3313118518]
+1580971522226|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3313452366]
+1580971522362|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3632232729]
+1580971522823|INFO|Floodmsga/H@228:println| ack 65
+1580971523524|INFO|Floodmsga/H@228:println|from 1  65
+1580971523524|INFO|Floodmsga/H@228:println| ack 66
+1580971531850|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:66
+1580971531902|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:3029602458]
+1580971531937|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3641627910 txDuration:1000]
+1580971531951|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:3323120518 txDuration:1000]
+1580971531987|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3641627910]
+1580971532002|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:3323120518]
+1580971532226|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3323452366]
+1580971532362|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3642232729]
+1580971532824|INFO|Floodmsga/H@228:println| ack 66
+1580971533525|INFO|Floodmsga/H@228:println|from 1  66
+1580971533525|INFO|Floodmsga/H@228:println| ack 67
+1580971541850|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:67
+1580971541902|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:3039602458]
+1580971541937|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3651627910 txDuration:1000]
+1580971541951|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:3333120518 txDuration:1000]
+1580971541988|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3651627910]
+1580971542003|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:3333120518]
+1580971542227|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3333452366]
+1580971542363|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3652232729]
+1580971542823|INFO|Floodmsga/H@228:println| ack 67
+1580971543524|INFO|Floodmsga/H@228:println|from 1  67
+1580971543524|INFO|Floodmsga/H@228:println| ack 68
+1580971551850|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:68
+1580971551902|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:3049602458]
+1580971551936|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3661627910 txDuration:1000]
+1580971551952|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:3343120518 txDuration:1000]
+1580971551988|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3661627910]
+1580971552003|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:3343120518]
+1580971552227|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3343452366]
+1580971552363|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3662232729]
+1580971552825|INFO|Floodmsga/H@228:println| ack 68
+1580971553525|INFO|Floodmsga/H@228:println|from 1  68
+1580971553525|INFO|Floodmsga/H@228:println| ack 69
+1580971561850|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:69
+1580971561902|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:3059602458]
+1580971561936|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3671627910 txDuration:1000]
+1580971561951|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:3353119518 txDuration:1000]
+1580971561988|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3671627910]
+1580971562003|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:3353119518]
+1580971562227|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3353452366]
+1580971562364|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3672232729]
+1580971562825|INFO|Floodmsga/H@228:println| ack 69
+1580971563525|INFO|Floodmsga/H@228:println|from 1  69
+1580971563525|INFO|Floodmsga/H@228:println| ack 70
+1580971571850|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:70
+1580971571902|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:3069602458]
+1580971571936|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3681628910 txDuration:1000]
+1580971571951|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:3363119518 txDuration:1000]
+1580971571991|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3681628910]
+1580971572002|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:3363119518]
+1580971572226|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3363452366]
+1580971572363|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3682232729]
+1580971572823|INFO|Floodmsga/H@228:println| ack 70
+1580971573525|INFO|Floodmsga/H@228:println|from 1  70
+1580971573525|INFO|Floodmsga/H@228:println| ack 71
+1580971581850|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:71
+1580971581900|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:3079602458]
+1580971581936|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3691627910 txDuration:1000]
+1580971581952|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:3373120518 txDuration:1000]
+1580971581986|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3691627910]
+1580971582003|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:3373120518]
+1580971582227|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3373452366]
+1580971582362|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3692232729]
+1580971582823|INFO|Floodmsga/H@228:println| ack 71
+1580971583524|INFO|Floodmsga/H@228:println|from 1  71
+1580971583524|INFO|Floodmsga/H@228:println| ack 72
+1580971591850|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:72
+1580971591901|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:3089602458]
+1580971591936|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3701627910 txDuration:1000]
+1580971591950|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:3383118518 txDuration:1000]
+1580971591987|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3701627910]
+1580971592002|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:3383118518]
+1580971592227|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3383452366]
+1580971592363|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3702232729]
+1580971592824|INFO|Floodmsga/H@228:println| ack 72
+1580971593524|INFO|Floodmsga/H@228:println|from 1  72
+1580971593525|INFO|Floodmsga/H@228:println| ack 73
+1580971601850|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:73
+1580971601901|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:3099602458]
+1580971601935|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3711627910 txDuration:1000]
+1580971601950|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:3393118518 txDuration:1000]
+1580971601987|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3711627910]
+1580971602001|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:3393118518]
+1580971602228|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3393452366]
+1580971602362|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3712232729]
+1580971602824|INFO|Floodmsga/H@228:println| ack 73
+1580971603526|INFO|Floodmsga/H@228:println|from 1  73
+1580971603526|INFO|Floodmsga/H@228:println| ack 74
+1580971611850|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:74
+1580971611902|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:3109602458]
+1580971611938|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3721629910 txDuration:1000]
+1580971611952|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:3403120518 txDuration:1000]
+1580971611989|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3721629910]
+1580971612005|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:3403120518]
+1580971612226|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3403452366]
+1580971612363|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3722232729]
+1580971612824|INFO|Floodmsga/H@228:println| ack 74
+1580971613525|INFO|Floodmsga/H@228:println|from 1  74
+1580971613525|INFO|Floodmsga/H@228:println| ack 75
+1580971621850|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:75
+1580971621902|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:3119602458]
+1580971621937|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3731628910 txDuration:1000]
+1580971621953|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:3413121518 txDuration:1000]
+1580971621987|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3731628910]
+1580971622005|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:3413121518]
+1580971622227|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3413452366]
+1580971622364|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3732232729]
+1580971622824|INFO|Floodmsga/H@228:println| ack 75
+1580971623525|INFO|Floodmsga/H@228:println|from 1  75
+1580971623525|INFO|Floodmsga/H@228:println| ack 76
+1580971631850|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:76
+1580971631900|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:3129602458]
+1580971631939|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3741631910 txDuration:1000]
+1580971631948|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:3423116518 txDuration:1000]
+1580971631991|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3741631910]
+1580971632000|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:3423116518]
+1580971632227|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3423452366]
+1580971632363|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3742232729]
+1580971632823|INFO|Floodmsga/H@228:println| ack 76
+1580971633524|INFO|Floodmsga/H@228:println|from 1  76
+1580971633524|INFO|Floodmsga/H@228:println| ack 77
+1580971641850|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:77
+1580971641902|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:3139602458]
+1580971641937|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3751628910 txDuration:1000]
+1580971641950|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:3433118518 txDuration:1000]
+1580971641988|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3751628910]
+1580971642001|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:3433118518]
+1580971642227|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3433452366]
+1580971642363|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3752232729]
+1580971642823|INFO|Floodmsga/H@228:println| ack 77
+1580971643523|INFO|Floodmsga/H@228:println|from 1  77
+1580971643524|INFO|Floodmsga/H@228:println| ack 78
+1580971651850|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:78
+1580971651902|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:3149602458]
+1580971651937|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3761627910 txDuration:1000]
+1580971651951|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:3443120518 txDuration:1000]
+1580971651988|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3761627910]
+1580971652003|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:3443120518]
+1580971652228|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3443452366]
+1580971652363|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3762232729]
+1580971652827|INFO|Floodmsga/H@228:println| ack 78
+1580971653527|INFO|Floodmsga/H@228:println|from 1  78
+1580971653527|INFO|Floodmsga/H@228:println| ack 79
+1580971661850|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:79
+1580971661902|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:3159602458]
+1580971661936|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3771627910 txDuration:1000]
+1580971661954|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:3453121518 txDuration:1000]
+1580971661989|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3771627910]
+1580971662005|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:3453121518]
+1580971662227|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3453452366]
+1580971662362|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3772232729]
+1580971662823|INFO|Floodmsga/H@228:println| ack 79
+1580971663524|INFO|Floodmsga/H@228:println|from 1  79
+1580971663524|INFO|Floodmsga/H@228:println| ack 80
+1580971671850|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:80
+1580971671901|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:3169602458]
+1580971671934|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3781625910 txDuration:1000]
+1580971671950|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:3463118518 txDuration:1000]
+1580971671984|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3781625910]
+1580971672002|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:3463118518]
+1580971672226|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3463452366]
+1580971672362|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3782232729]
+1580971672825|INFO|Floodmsga/H@228:println| ack 80
+1580971673525|INFO|Floodmsga/H@228:println|from 1  80
+1580971673526|INFO|Floodmsga/H@228:println| ack 81
+1580971681850|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:81
+1580971681901|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:3179602458]
+1580971681936|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3791627910 txDuration:1000]
+1580971681951|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:3473119518 txDuration:1000]
+1580971681988|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3791627910]
+1580971682002|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:3473119518]
+1580971682227|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3473452366]
+1580971682362|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3792232729]
+1580971682824|INFO|Floodmsga/H@228:println| ack 81
+1580971683524|INFO|Floodmsga/H@228:println|from 1  81
+1580971683524|INFO|Floodmsga/H@228:println| ack 82
+1580971691849|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|Count:82
+1580971691901|INFO|org.arl.unet.sim.SimulationAgent/A@134:call|TxFrameNtf:INFORM[type:DATA txTime:3189602458]
+1580971691936|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameStartNtf:INFORM[txTime:3801628910 txDuration:1000]
+1580971691953|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameStartNtf:INFORM[txTime:3483121518 txDuration:1000]
+1580971691988|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|TxFrameNtf:INFORM[txTime:3801628910]
+1580971692004|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|TxFrameNtf:INFORM[txTime:3483121518]
+1580971692226|INFO|org.arl.unet.sim.SimulationAgent/B@149:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3483452366]
+1580971692362|INFO|org.arl.unet.sim.SimulationAgent/C@165:call|RxFrameStartNtf:INFORM[type:DATA rxTime:3802232729]
+1580971692824|INFO|Floodmsga/H@228:println| ack 82
+1580971693525|INFO|Floodmsga/H@228:println|from 1  82
+1580971693525|INFO|Floodmsga/H@228:println| ack 83

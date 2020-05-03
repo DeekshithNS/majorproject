@@ -1,0 +1,20 @@
+1578389966271|INFO|org.arl.unet.UnetBoot@1:invoke|fjage Build: fjage-1.6.1/10-09-2019_00:41:43
+1578389966369|INFO|org.arl.unet.UnetBoot@1:invoke|UnetBoot: [samples/2-node-network.groovy]
+1578389966507|INFO|org.arl.unet.JsonTypeAdapter@1:<clinit>|Groovy detected, using GroovyClassLoader
+1578389966532|INFO|org.arl.fjage.remote.MessageAdapterFactory@1:<clinit>|Groovy detected, using GroovyClassLoader
+1578389967126|WARNING|org.arl.fjage.shell.GroovyScriptEngine@1:error|Groovy script execution failed
+
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+/home/deekshith/unet-3.0.0/samples/2-node-network.groovy: 36: expecting '}', found 'sig' @ line 36, column 34.
+     						int num = duration*fddef sig = []
+                                    ^
+
+1 error
+
+Stack trace: ...
+   org.arl.fjage.shell.GroovyScriptEngine.exec(GroovyScriptEngine.java:215) ...
+   org.arl.unet.boot.sim.exec(sim.groovy:41)
+   org.arl.unet.boot.sim$exec$0.call(Unknown Source) ...
+   org.arl.unet.UnetBoot.run(UnetBoot.groovy:181) ...
+   org.arl.unet.UnetBoot.main(UnetBoot.groovy)
+

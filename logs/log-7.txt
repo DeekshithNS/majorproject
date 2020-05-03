@@ -1,0 +1,46 @@
+1582618413335|INFO|org.arl.unet.UnetBoot@1:invoke|fjage Build: fjage-1.6.1/10-09-2019_00:41:43
+1582618413430|INFO|org.arl.unet.UnetBoot@1:invoke|UnetBoot: [scripts/2-node-network.groovy]
+1582618413592|INFO|org.arl.unet.JsonTypeAdapter@1:<clinit>|Groovy detected, using GroovyClassLoader
+1582618413616|INFO|org.arl.fjage.remote.MessageAdapterFactory@1:<clinit>|Groovy detected, using GroovyClassLoader
+0|INFO|org.arl.unet.sim.SimulationMasterContainer@1:openTcpServer|Listening on port 1101
+1582618414672|INFO|org.arl.fjage.connectors.TcpServer@11:run|Listening on port 1101
+0|INFO|org.arl.unet.nodeinfo.NodeInfo/A@1:setAddress|Node address changed to 1
+1582618414763|INFO|Script1@1:invoke|Starting web interface on port null:8081
+1582618414895|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /fjage
+1582618414898|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /
+1582618414901|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /logs
+1582618414902|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /sim
+1582618414918|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /ws
+1582618415014|INFO|org.arl.fjage.connectors.WebServer@1:start|Started web server on port 8081
+0|INFO|org.arl.unet.sim.SimulationMasterContainer@1:addConnector|Listening on ws://127.0.1.1:8081/ws
+1582618415019|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /fjage/shell/ws
+1582618415572|INFO|Script1@1:invoke|Created static node A (1) @ [0, 0, -15]
+0|INFO|org.arl.unet.sim.SimulationMasterContainer@1:openTcpServer|Listening on port 1102
+1582618415579|INFO|org.arl.fjage.connectors.TcpServer@25:run|Listening on port 1102
+0|INFO|org.arl.unet.nodeinfo.NodeInfo/B@1:setAddress|Node address changed to 2
+1582618415581|INFO|Script1@1:invoke|Starting web interface on port null:8082
+1582618415583|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /fjage
+1582618415583|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /
+1582618415584|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /logs
+1582618415585|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /sim
+1582618415586|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /ws
+1582618415595|INFO|org.arl.fjage.connectors.WebServer@1:start|Started web server on port 8082
+0|INFO|org.arl.unet.sim.SimulationMasterContainer@1:addConnector|Listening on ws://127.0.1.1:8082/ws
+1582618415602|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /fjage/shell/ws
+1582618415667|WARNING|org.arl.fjage.shell.GroovyScriptEngine@1:error|Groovy script execution failed
+
+java.lang.NullPointerException: Cannot invoke method addInitrc() on null object
+Stack trace: ...
+   2-node-network$_run_closure1$_closure3.doCall(2-node-network.groovy:45) ...
+   org.arl.unet.sim.initrc$_run_closure9.doCall(initrc.groovy:363) ...
+   2-node-network$_run_closure1.doCall(2-node-network.groovy:43)
+   2-node-network$_run_closure1.doCall(2-node-network.groovy) ...
+   org.arl.unet.sim.initrc$_run_closure11.doCall(initrc.groovy:408)
+   org.arl.unet.sim.initrc$_run_closure11.doCall(initrc.groovy) ...
+   2-node-network.run(2-node-network.groovy:29) ...
+   org.arl.fjage.shell.GroovyScriptEngine.exec(GroovyScriptEngine.java:215) ...
+   org.arl.unet.boot.sim.exec(sim.groovy:41)
+   org.arl.unet.boot.sim$exec$0.call(Unknown Source) ...
+   org.arl.unet.UnetBoot.run(UnetBoot.groovy:181) ...
+   org.arl.unet.UnetBoot.main(UnetBoot.groovy)
+

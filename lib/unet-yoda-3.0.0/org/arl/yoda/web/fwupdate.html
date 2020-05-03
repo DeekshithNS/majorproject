@@ -1,0 +1,139 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Unet</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon">
+  <link rel="stylesheet" href="/css/vendor/vendor.css">
+  <link rel="stylesheet" href="/css/vendor/font.css">
+  <link rel="stylesheet" href="/css/vendor/app-orange.css">
+  <link rel="stylesheet" href="/css/vendor/sweetalert.min.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/vendor/rome.css">
+  <script src="/js/vendor/sweetalert/sweetalert.min.js"></script>
+  <script src="/js/vendor/vendor/vendor.js" defer></script>
+</head>
+
+<body>
+  <!--[if lte IE 9]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+<![endif]-->
+  <div class="main-wrapper">
+    <div class="app" id="app">
+      <article class="content dashboard-page">
+        <section class="section">
+          <div class="card">
+            <div class="card-block">
+              <div class="card-title-block">
+                <h3 class="title">Firmware update</h3>
+              </div>
+              <section class="example">
+                <input id="firmwarefile" type="file" name="fileupload">
+                <button id="uplfirmware" type="submit" class="btn btn-success-outline">Update</button>
+              </section>
+            </div>
+          </div>
+        </section>
+      </article>
+    </div>
+  </div>
+  <script type="module">
+   /*global sweetAlert*/
+   import {
+         Gateway,
+         Performative,
+         MessageClass
+     } from '../fjage/fjage.js';
+     var gw = new Gateway();
+     var unetsh = undefined;
+     var MAX_FILE_SIZE = 104800000;
+     var fname = document.getElementById('firmwarefile');
+
+     var PutFileReq = MessageClass('org.arl.fjage.shell.PutFileReq');
+
+     (function getShlAgent(){
+
+       gw.agentForService('org.arl.fjage.shell.Services.SHELL').then((aid) => {
+           if(!aid ) setTimeout(getShlAgent, 3000);
+           else {
+               unetsh = aid;
+               gw.subscribe(gw.topic(unetsh));
+               if (unetsh) document.getElementById('uplfirmware').addEventListener('click',uplFirmware);
+           }
+       }).catch((ex) => {
+         console.warn('Could not find SCHD: ' + ex);
+       });
+     })();
+
+     function uplFirmware(){
+
+       let pfr = new PutFileReq();
+       const fileToUpload = fname.files[0];
+       if (!fileToUpload) return;
+       var uploadPath = 'tmp/' +fileToUpload.name;
+       var size = fileToUpload.size;
+       if (!uploadPath.endsWith('.gpg') && !uploadPath.endsWith('.tgz')){
+         sweetAlert('Failure!', 'Unsupported file type.', 'error');
+       } else if(size > MAX_FILE_SIZE){
+         sweetAlert('Failure!', 'File size is greater than '+formatBytes(MAX_FILE_SIZE,0), 'error');
+       } else {
+         // sweetAlert("Firmware Upgrade!", "Are you sure you want to upgrade the firmware?");
+         sweetAlert({
+           title: 'Firmware Upgrade!',
+           text: 'Are you sure you want to upgrade the firmware?',
+           icon: 'warning',
+           buttons: true,
+           dangerMode: true,
+         }).then ((ans) => {
+           if (!ans){
+             return;
+           }
+           sweetAlert({
+             title: 'Firmware Upgrade!',
+             text: 'Uploading...',
+             icon: 'info',
+             buttons: false,
+             closeOnClickOutside: false,
+             closeOnEsc: false
+           });
+           var reader = new FileReader();
+           reader.onload = function(event){
+             pfr.recipient = unetsh;
+             pfr.filename = uploadPath;
+             pfr.contents = Array.from(new Uint8Array(event.target.result));
+             gw.request(pfr, Math.max(fileToUpload.size/100, 1000)).then((msg)=>{
+               if(msg.perf == Performative.AGREE){
+                 sweetAlert('Firmware Upgrade!', 'Firmware Upgrade complete. Please restart the device', 'success');
+                 fname.value = '';
+               } else {
+                 sweetAlert('Firmware Upgrade!', 'Firmware Upgrade failed. Please restart the device', 'error');
+                 fname.value = '';
+               }
+             }).catch((ex) => {
+                 console.warn('Firmware upgrade error' + ex);
+                 sweetAlert('Firmware Upgrade!', 'Firmware Upgrade failed. Please restart the device', 'error');
+                 fname.value = '';
+             });
+           };
+           reader.readAsArrayBuffer(fileToUpload);
+         });
+       }
+     }
+
+     /*To format the file size*/
+     function formatBytes(bytes,decimals) {
+       if(bytes == 0) return '0 B';
+       var k = 1024,
+         dm = decimals <= 0 ? 0 : decimals || 2,
+         sizes = ['B', 'KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB'],
+         i = Math.floor(Math.log(bytes) / Math.log(k));
+       return parseFloat((bytes / Math.pow(k, i)).toFixed(dm)) + ' ' + sizes[i];
+     }
+    </script>
+</body>
+
+</html>

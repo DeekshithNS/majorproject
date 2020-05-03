@@ -1,0 +1,328 @@
+1578305829957|INFO|org.arl.unet.UnetBoot@1:invoke|fjage Build: fjage-1.6.1/10-09-2019_00:41:43
+1578305830042|INFO|org.arl.unet.UnetBoot@1:invoke|UnetBoot: [scripts/2-node-network.groovy]
+1578305830167|INFO|org.arl.unet.JsonTypeAdapter@1:<clinit>|Groovy detected, using GroovyClassLoader
+1578305830188|INFO|org.arl.fjage.remote.MessageAdapterFactory@1:<clinit>|Groovy detected, using GroovyClassLoader
+1578305831133|INFO|org.arl.unet.sim.SimulationMasterContainer@1:openTcpServer|Listening on port 1101
+1578305831149|INFO|org.arl.fjage.connectors.TcpServer@12:run|Listening on port 1101
+1578305831213|INFO|org.arl.unet.nodeinfo.NodeInfo/A@1:setAddress|Node address changed to 1
+1578305831254|INFO|Script1@1:invoke|Starting web interface on port null:8081
+1578305831401|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /fjage
+1578305831405|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /
+1578305831409|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /logs
+1578305831410|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /sim
+1578305831427|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /ws
+1578305831499|INFO|org.arl.fjage.connectors.WebServer@1:start|Started web server on port 8081
+1578305831502|INFO|org.arl.unet.sim.SimulationMasterContainer@1:addConnector|Listening on ws://127.0.1.1:8081/ws
+1578305831505|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /fjage/shell/ws
+1578305832026|INFO|Script1@1:invoke|Created static node A (1) @ [0, 0, -15]
+1578305832033|INFO|org.arl.unet.sim.SimulationMasterContainer@1:openTcpServer|Listening on port 1102
+1578305832033|INFO|org.arl.fjage.connectors.TcpServer@26:run|Listening on port 1102
+1578305832035|INFO|org.arl.unet.nodeinfo.NodeInfo/B@1:setAddress|Node address changed to 2
+1578305832035|INFO|Script1@1:invoke|Starting web interface on port null:8082
+1578305832037|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /fjage
+1578305832037|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /
+1578305832038|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /logs
+1578305832038|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /sim
+1578305832039|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /ws
+1578305832042|INFO|org.arl.fjage.connectors.WebServer@1:start|Started web server on port 8082
+1578305832042|INFO|org.arl.unet.sim.SimulationMasterContainer@1:addConnector|Listening on ws://127.0.1.1:8082/ws
+1578305832043|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /fjage/shell/ws
+1578305832100|INFO|Script1@1:invoke|Created static node B (2) @ [20.00, 0, -15]
+1578305832102|INFO|org.arl.unet.sim.SimulationMasterContainer@1:openTcpServer|Listening on port 1103
+1578305832103|INFO|org.arl.unet.nodeinfo.NodeInfo/C@1:setAddress|Node address changed to 3
+1578305832104|INFO|Script1@1:invoke|Starting web interface on port null:8083
+1578305832105|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /fjage
+1578305832106|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /
+1578305832106|INFO|org.arl.fjage.connectors.TcpServer@39:run|Stopped listening
+1578305832107|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /logs
+1578305832107|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /sim
+1578305832108|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /ws
+1578305832119|WARNING|org.arl.fjage.connectors.WebServer@1:start|java.io.IOException: Failed to bind to /127.0.0.1:8083
+1578305832119|INFO|org.arl.unet.sim.SimulationMasterContainer@1:addConnector|Listening on ws://127.0.1.1:8083/ws
+1578305832120|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /fjage/shell/ws
+1578305832121|WARNING|org.arl.fjage.connectors.WebServer@1:start|java.io.IOException: Failed to bind to /127.0.0.1:8083
+1578305832160|INFO|Script1@1:invoke|Created static node C (3) @ [40.00, -15]
+1578305832182|INFO|Script1@1:invoke| --- BEGIN SIMULATION #1 ---
+1578305832189|INFO|org.arl.unet.sim.SimulationMasterContainer@1:init|Initializing agents...
+1578305832192|INFO|org.arl.unet.remote.RemoteControl/A@52:init|Loading agent remote v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.remote.RemoteControl] on A
+1578305832193|INFO|org.arl.unet.net.Router/A@53:init|Loading agent router v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.net.Router] on A
+1578305832194|INFO|org.arl.unet.link.ReliableLink/A@54:init|Loading agent uwlink v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.link.ReliableLink] on A
+1578305832199|INFO|org.arl.unet.bb.BasebandSignalMonitor/A@55:init|Loading agent bbmon v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.bb.BasebandSignalMonitor] on A
+1578305832199|INFO|org.arl.fjage.shell.ShellAgent/A@57:init|Agent websh init
+1578305832200|INFO|org.arl.unet.addr.AddressResolution/A@58:init|Loading agent arp v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.addr.AddressResolution] on A
+1578305832201|INFO|org.arl.unet.mac.CSMA/A@59:init|Loading agent mac v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.mac.CSMA] on A
+1578305832202|INFO|org.arl.unet.sim.HalfDuplexModem/A@60:init|Loading agent phy v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.sim.HalfDuplexModem] on A
+1578305832203|INFO|org.arl.unet.net.RouteDiscoveryProtocol/A@61:init|Loading agent rdp v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.net.RouteDiscoveryProtocol] on A
+1578305832206|INFO|org.arl.unet.nodeinfo.NodeInfo/A@63:init|Loading agent node v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.nodeinfo.NodeInfo] on A
+1578305832207|INFO|org.arl.unet.transport.SWTransport/A@64:init|Loading agent transport v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.transport.SWTransport] on A
+1578305832207|INFO|org.arl.unet.phy.Ranging/A@65:init|Loading agent ranging v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.phy.Ranging] on A
+1578305832210|INFO|org.arl.unet.sim.SimulationAgent/A@66:invoke|Loading simulator : SimulationAgent
+1578305832310|INFO|org.arl.unet.sim.SimulationMasterContainer@1:init|Agents ready...
+1578305832310|INFO|org.arl.unet.sim.SimulationMasterContainer@1:init|Initializing agents...
+1578305832311|INFO|org.arl.fjage.shell.ShellAgent/B@67:init|Agent websh init
+1578305832312|INFO|org.arl.unet.nodeinfo.NodeInfo/B@69:init|Loading agent node v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.nodeinfo.NodeInfo] on B
+1578305832312|INFO|org.arl.unet.sim.SimulationAgent/B@72:invoke|Loading simulator : SimulationAgent
+1578305832312|INFO|org.arl.unet.sim.HalfDuplexModem/B@68:init|Loading agent phy v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.sim.HalfDuplexModem] on B
+1578305832313|INFO|Floodmsg/B@70:init|Loading agent Floodmsg [Floodmsg] on B
+1578305832412|INFO|org.arl.unet.sim.SimulationMasterContainer@1:init|Agents ready...
+1578305832412|INFO|org.arl.unet.sim.SimulationMasterContainer@1:init|Initializing agents...
+1578305832414|INFO|org.arl.unet.link.ReliableLink/C@74:init|Loading agent uwlink v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.link.ReliableLink] on C
+1578305832415|INFO|org.arl.fjage.shell.ShellAgent/C@75:init|Agent websh init
+1578305832416|INFO|Floodmsga/C@76:init|Loading agent Floodmsga [Floodmsga] on C
+1578305832417|INFO|org.arl.unet.sim.HalfDuplexModem/C@77:init|Loading agent phy v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.sim.HalfDuplexModem] on C
+1578305832419|INFO|org.arl.unet.nodeinfo.NodeInfo/C@78:init|Loading agent node v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.nodeinfo.NodeInfo] on C
+1578305832430|INFO|org.arl.unet.sim.SimulationAgent/C@79:invoke|Loading simulator : SimulationAgent
+1578305832520|INFO|org.arl.unet.sim.SimulationMasterContainer@1:init|Agents ready...
+1578305832520|INFO|org.arl.unet.sim.SimulationMasterContainer@1:start|Starting container...
+1578305832521|INFO|org.arl.unet.sim.SimulationMasterContainer@1:start|Starting container...
+1578305832521|INFO|org.arl.unet.sim.SimulationMasterContainer@1:start|Starting container...
+1578305832522|INFO|org.arl.unet.transport.SWTransport/A@64:startup|Using router for communication
+1578305832522|INFO|org.arl.unet.nodeinfo.NodeInfo/B@69:obtainAddress|Node name is B, address is 2, address size is 8 bits
+1578305832528|INFO|org.arl.unet.nodeinfo.NodeInfo/A@63:obtainAddress|Node name is A, address is 1, address size is 8 bits
+1578305832521|INFO|org.arl.unet.remote.RemoteControl/A@52:startup|Using transport for communication
+1578305832527|INFO|org.arl.unet.link.ReliableLink/A@54:startup|No PHY specified, auto detecting...
+1578305832527|INFO|org.arl.unet.nodeinfo.NodeInfo/C@78:obtainAddress|Node name is C, address is 3, address size is 8 bits
+1578305832527|INFO|org.arl.unet.link.ReliableLink/C@74:startup|No PHY specified, auto detecting...
+1578305832529|INFO|org.arl.unet.remote.RemoteControl/A@52:startup|Using websh for command exec
+1578305832529|INFO|org.arl.unet.link.ReliableLink/A@54:startup|Using agent 'phy' for PHY
+1578305832529|INFO|org.arl.unet.link.ReliableLink/A@54:startup|No MAC specified, auto detecting...
+1578305832530|INFO|org.arl.unet.link.ReliableLink/A@54:startup|Using agent 'mac' for MAC
+1578305832530|INFO|org.arl.unet.link.ReliableLink/C@74:startup|Using agent 'phy' for PHY
+1578305832530|INFO|org.arl.unet.link.ReliableLink/C@74:startup|No MAC specified, auto detecting...
+1578305832530|INFO|org.arl.unet.link.ReliableLink/C@74:startup|No MAC detected, continuing without MAC
+1578305832548|INFO|org.arl.unet.sim.SimulationAgent/A@66:call|Simulation agent ready
+1578305842568|SEVERE|org.arl.unet.sim.SimulationAgent/A@66:run|Exception in agent: simulator
+
+groovy.lang.MissingMethodException: No signature of method: static java.lang.System.println() is applicable for argument types: (java.lang.String, java.lang.Integer) values: [%d, 1]
+Possible solutions: println(), println(java.io.PrintWriter), println(java.lang.Object), printf(java.lang.String, java.lang.Object), printf(java.lang.String, [Ljava.lang.Object;), sprintf(java.lang.String, [Ljava.lang.Object;)
+Stack trace: ...
+   2-node-network$_run_closure1$_closure2$_closure5.doCall(2-node-network.groovy:36) ...
+   com.sun.proxy.$Proxy17.call(Unknown Source)
+   org.arl.fjage.Behavior.action(Behavior.java:82)
+   org.arl.fjage.TickerBehavior.onTick(TickerBehavior.java:65)
+   org.arl.fjage.TickerBehavior.action(TickerBehavior.java:94)
+   org.arl.fjage.Agent.run(Agent.java:747) ...
+
+1578305842651|INFO|Floodmsga/C@76:println|sent 1
+1578305842651|INFO|Floodmsga/C@76:println| ack 1
+1578305842651|INFO|Floodmsga/C@76:println|rxstart 1
+1578305842652|INFO|Floodmsga/C@76:println|txstart 0
+1578305842652|INFO|Floodmsga/C@76:println|datantf 0
+1578305842653|INFO|Floodmsga/C@76:println|datadel ntf 0
+1578305843360|INFO|Floodmsga/C@76:println|sent 1
+1578305843360|INFO|Floodmsga/C@76:println| ack 2
+1578305843360|INFO|Floodmsga/C@76:println|rxstart 1
+1578305843360|INFO|Floodmsga/C@76:println|txstart 0
+1578305843360|INFO|Floodmsga/C@76:println|datantf 0
+1578305843360|INFO|Floodmsga/C@76:println|datadel ntf 0
+1578305843417|INFO|Floodmsga/C@76:println|sent 1
+1578305843418|INFO|Floodmsga/C@76:println| ack 2
+1578305843418|INFO|Floodmsga/C@76:println|rxstart 2
+1578305843418|INFO|Floodmsga/C@76:println|txstart 0
+1578305843419|INFO|Floodmsga/C@76:println|datantf 0
+1578305843419|INFO|Floodmsga/C@76:println|datadel ntf 0
+1578305844118|INFO|Floodmsga/C@76:println|sent 1
+1578305844119|INFO|Floodmsga/C@76:println| ack 3
+1578305844120|INFO|Floodmsga/C@76:println|rxstart 2
+1578305844123|INFO|Floodmsga/C@76:println|txstart 0
+1578305844123|INFO|Floodmsga/C@76:println|datantf 0
+1578305844123|INFO|Floodmsga/C@76:println|datadel ntf 0
+1578305844177|INFO|Floodmsga/C@76:println|sent 1
+1578305844179|INFO|Floodmsga/C@76:println| ack 3
+1578305844179|INFO|Floodmsga/C@76:println|rxstart 3
+1578305844180|INFO|Floodmsga/C@76:println|txstart 0
+1578305844180|INFO|Floodmsga/C@76:println|datantf 0
+1578305844183|INFO|Floodmsga/C@76:println|datadel ntf 0
+1578305844874|INFO|Floodmsga/C@76:println|sent 1
+1578305844874|INFO|Floodmsga/C@76:println| ack 4
+1578305844874|INFO|Floodmsga/C@76:println|rxstart 3
+1578305844874|INFO|Floodmsga/C@76:println|txstart 0
+1578305844874|INFO|Floodmsga/C@76:println|datantf 0
+1578305844874|INFO|Floodmsga/C@76:println|datadel ntf 0
+1578305844927|INFO|Floodmsga/C@76:println|sent 1
+1578305844927|INFO|Floodmsga/C@76:println| ack 4
+1578305844927|INFO|Floodmsga/C@76:println|rxstart 4
+1578305844927|INFO|Floodmsga/C@76:println|txstart 0
+1578305844928|INFO|Floodmsga/C@76:println|datantf 0
+1578305844928|INFO|Floodmsga/C@76:println|datadel ntf 0
+1578305845628|INFO|Floodmsga/C@76:println|sent 1
+1578305845628|INFO|Floodmsga/C@76:println| ack 5
+1578305845628|INFO|Floodmsga/C@76:println|rxstart 4
+1578305845629|INFO|Floodmsga/C@76:println|txstart 0
+1578305845629|INFO|Floodmsga/C@76:println|datantf 0
+1578305845629|INFO|Floodmsga/C@76:println|datadel ntf 0
+1578305845676|INFO|Floodmsga/C@76:println|sent 1
+1578305845677|INFO|Floodmsga/C@76:println| ack 5
+1578305845677|INFO|Floodmsga/C@76:println|rxstart 5
+1578305845677|INFO|Floodmsga/C@76:println|txstart 0
+1578305845677|INFO|Floodmsga/C@76:println|datantf 0
+1578305845677|INFO|Floodmsga/C@76:println|datadel ntf 0
+1578305846376|INFO|Floodmsga/C@76:println|sent 1
+1578305846376|INFO|Floodmsga/C@76:println| ack 6
+1578305846377|INFO|Floodmsga/C@76:println|rxstart 5
+1578305846377|INFO|Floodmsga/C@76:println|txstart 0
+1578305846377|INFO|Floodmsga/C@76:println|datantf 0
+1578305846377|INFO|Floodmsga/C@76:println|datadel ntf 0
+1578305846431|INFO|Floodmsga/C@76:println|sent 1
+1578305846431|INFO|Floodmsga/C@76:println| ack 6
+1578305846431|INFO|Floodmsga/C@76:println|rxstart 6
+1578305846431|INFO|Floodmsga/C@76:println|txstart 0
+1578305846432|INFO|Floodmsga/C@76:println|datantf 0
+1578305846432|INFO|Floodmsga/C@76:println|datadel ntf 0
+1578305847131|INFO|Floodmsga/C@76:println|sent 1
+1578305847131|INFO|Floodmsga/C@76:println| ack 7
+1578305847131|INFO|Floodmsga/C@76:println|rxstart 6
+1578305847131|INFO|Floodmsga/C@76:println|txstart 0
+1578305847132|INFO|Floodmsga/C@76:println|datantf 0
+1578305847132|INFO|Floodmsga/C@76:println|datadel ntf 0
+1578305847176|INFO|Floodmsga/C@76:println|sent 1
+1578305847176|INFO|Floodmsga/C@76:println| ack 7
+1578305847176|INFO|Floodmsga/C@76:println|rxstart 7
+1578305847176|INFO|Floodmsga/C@76:println|txstart 0
+1578305847176|INFO|Floodmsga/C@76:println|datantf 0
+1578305847177|INFO|Floodmsga/C@76:println|datadel ntf 0
+1578305847876|INFO|Floodmsga/C@76:println|sent 1
+1578305847877|INFO|Floodmsga/C@76:println| ack 8
+1578305847877|INFO|Floodmsga/C@76:println|rxstart 7
+1578305847877|INFO|Floodmsga/C@76:println|txstart 0
+1578305847877|INFO|Floodmsga/C@76:println|datantf 0
+1578305847877|INFO|Floodmsga/C@76:println|datadel ntf 0
+1578305847926|INFO|Floodmsga/C@76:println|sent 1
+1578305847926|INFO|Floodmsga/C@76:println| ack 8
+1578305847926|INFO|Floodmsga/C@76:println|rxstart 8
+1578305847926|INFO|Floodmsga/C@76:println|txstart 0
+1578305847927|INFO|Floodmsga/C@76:println|datantf 0
+1578305847927|INFO|Floodmsga/C@76:println|datadel ntf 0
+1578305848627|INFO|Floodmsga/C@76:println|sent 1
+1578305848627|INFO|Floodmsga/C@76:println| ack 9
+1578305848627|INFO|Floodmsga/C@76:println|rxstart 8
+1578305848627|INFO|Floodmsga/C@76:println|txstart 0
+1578305848627|INFO|Floodmsga/C@76:println|datantf 0
+1578305848627|INFO|Floodmsga/C@76:println|datadel ntf 0
+1578305848677|INFO|Floodmsga/C@76:println|sent 1
+1578305848677|INFO|Floodmsga/C@76:println| ack 9
+1578305848677|INFO|Floodmsga/C@76:println|rxstart 9
+1578305848677|INFO|Floodmsga/C@76:println|txstart 0
+1578305848677|INFO|Floodmsga/C@76:println|datantf 0
+1578305848677|INFO|Floodmsga/C@76:println|datadel ntf 0
+1578305849377|INFO|Floodmsga/C@76:println|sent 1
+1578305849377|INFO|Floodmsga/C@76:println| ack 10
+1578305849377|INFO|Floodmsga/C@76:println|rxstart 9
+1578305849378|INFO|Floodmsga/C@76:println|txstart 0
+1578305849378|INFO|Floodmsga/C@76:println|datantf 0
+1578305849378|INFO|Floodmsga/C@76:println|datadel ntf 0
+1578305849428|INFO|Floodmsga/C@76:println|sent 1
+1578305849428|INFO|Floodmsga/C@76:println| ack 10
+1578305849428|INFO|Floodmsga/C@76:println|rxstart 10
+1578305849429|INFO|Floodmsga/C@76:println|txstart 0
+1578305849429|INFO|Floodmsga/C@76:println|datantf 0
+1578305849429|INFO|Floodmsga/C@76:println|datadel ntf 0
+1578305850127|INFO|Floodmsga/C@76:println|sent 1
+1578305850128|INFO|Floodmsga/C@76:println| ack 11
+1578305850128|INFO|Floodmsga/C@76:println|rxstart 10
+1578305850128|INFO|Floodmsga/C@76:println|txstart 0
+1578305850128|INFO|Floodmsga/C@76:println|datantf 0
+1578305850128|INFO|Floodmsga/C@76:println|datadel ntf 0
+1578305850177|INFO|Floodmsga/C@76:println|sent 1
+1578305850177|INFO|Floodmsga/C@76:println| ack 11
+1578305850178|INFO|Floodmsga/C@76:println|rxstart 11
+1578305850178|INFO|Floodmsga/C@76:println|txstart 0
+1578305850178|INFO|Floodmsga/C@76:println|datantf 0
+1578305850178|INFO|Floodmsga/C@76:println|datadel ntf 0
+1578305850879|INFO|Floodmsga/C@76:println|sent 1
+1578305850880|INFO|Floodmsga/C@76:println| ack 12
+1578305850880|INFO|Floodmsga/C@76:println|rxstart 11
+1578305850880|INFO|Floodmsga/C@76:println|txstart 0
+1578305850880|INFO|Floodmsga/C@76:println|datantf 0
+1578305850880|INFO|Floodmsga/C@76:println|datadel ntf 0
+1578305850930|INFO|Floodmsga/C@76:println|sent 1
+1578305850930|INFO|Floodmsga/C@76:println| ack 12
+1578305850932|INFO|Floodmsga/C@76:println|rxstart 12
+1578305850932|INFO|Floodmsga/C@76:println|txstart 0
+1578305850932|INFO|Floodmsga/C@76:println|datantf 0
+1578305850932|INFO|Floodmsga/C@76:println|datadel ntf 0
+1578305851631|INFO|Floodmsga/C@76:println|sent 1
+1578305851631|INFO|Floodmsga/C@76:println| ack 13
+1578305851631|INFO|Floodmsga/C@76:println|rxstart 12
+1578305851631|INFO|Floodmsga/C@76:println|txstart 0
+1578305851631|INFO|Floodmsga/C@76:println|datantf 0
+1578305851631|INFO|Floodmsga/C@76:println|datadel ntf 0
+1578305851677|INFO|Floodmsga/C@76:println|sent 1
+1578305851677|INFO|Floodmsga/C@76:println| ack 13
+1578305851677|INFO|Floodmsga/C@76:println|rxstart 13
+1578305851677|INFO|Floodmsga/C@76:println|txstart 0
+1578305851677|INFO|Floodmsga/C@76:println|datantf 0
+1578305851677|INFO|Floodmsga/C@76:println|datadel ntf 0
+1578305852377|INFO|Floodmsga/C@76:println|sent 1
+1578305852377|INFO|Floodmsga/C@76:println| ack 14
+1578305852377|INFO|Floodmsga/C@76:println|rxstart 13
+1578305852377|INFO|Floodmsga/C@76:println|txstart 0
+1578305852378|INFO|Floodmsga/C@76:println|datantf 0
+1578305852378|INFO|Floodmsga/C@76:println|datadel ntf 0
+1578305852428|INFO|Floodmsga/C@76:println|sent 1
+1578305852431|INFO|Floodmsga/C@76:println| ack 14
+1578305852432|INFO|Floodmsga/C@76:println|rxstart 14
+1578305852432|INFO|Floodmsga/C@76:println|txstart 0
+1578305852432|INFO|Floodmsga/C@76:println|datantf 0
+1578305852432|INFO|Floodmsga/C@76:println|datadel ntf 0
+1578305853127|INFO|Floodmsga/C@76:println|sent 1
+1578305853128|INFO|Floodmsga/C@76:println| ack 15
+1578305853128|INFO|Floodmsga/C@76:println|rxstart 14
+1578305853128|INFO|Floodmsga/C@76:println|txstart 0
+1578305853128|INFO|Floodmsga/C@76:println|datantf 0
+1578305853128|INFO|Floodmsga/C@76:println|datadel ntf 0
+1578305853176|INFO|Floodmsga/C@76:println|sent 1
+1578305853177|INFO|Floodmsga/C@76:println| ack 15
+1578305853177|INFO|Floodmsga/C@76:println|rxstart 15
+1578305853177|INFO|Floodmsga/C@76:println|txstart 0
+1578305853177|INFO|Floodmsga/C@76:println|datantf 0
+1578305853177|INFO|Floodmsga/C@76:println|datadel ntf 0
+1578305853879|INFO|Floodmsga/C@76:println|sent 1
+1578305853879|INFO|Floodmsga/C@76:println| ack 16
+1578305853879|INFO|Floodmsga/C@76:println|rxstart 15
+1578305853880|INFO|Floodmsga/C@76:println|txstart 0
+1578305853880|INFO|Floodmsga/C@76:println|datantf 0
+1578305853880|INFO|Floodmsga/C@76:println|datadel ntf 0
+1578305853927|INFO|Floodmsga/C@76:println|sent 1
+1578305853927|INFO|Floodmsga/C@76:println| ack 16
+1578305853927|INFO|Floodmsga/C@76:println|rxstart 16
+1578305853927|INFO|Floodmsga/C@76:println|txstart 0
+1578305853927|INFO|Floodmsga/C@76:println|datantf 0
+1578305853927|INFO|Floodmsga/C@76:println|datadel ntf 0
+1578305854640|INFO|Floodmsga/C@76:println|sent 1
+1578305854640|INFO|Floodmsga/C@76:println| ack 17
+1578305854640|INFO|Floodmsga/C@76:println|rxstart 16
+1578305854640|INFO|Floodmsga/C@76:println|txstart 0
+1578305854640|INFO|Floodmsga/C@76:println|datantf 0
+1578305854640|INFO|Floodmsga/C@76:println|datadel ntf 0
+1578305854678|INFO|Floodmsga/C@76:println|sent 1
+1578305854679|INFO|Floodmsga/C@76:println| ack 17
+1578305854679|INFO|Floodmsga/C@76:println|rxstart 17
+1578305854679|INFO|Floodmsga/C@76:println|txstart 0
+1578305854679|INFO|Floodmsga/C@76:println|datantf 0
+1578305854679|INFO|Floodmsga/C@76:println|datadel ntf 0
+1578305854682|INFO|org.arl.fjage.connectors.WebServer@85:remove|Removing web context: /ws
+1578305854683|INFO|org.arl.unet.sim.SimulationMasterContainer@85:connectionClosed|Connection ws://127.0.1.1:8081/ws closed
+1578305854684|INFO|org.arl.unet.sim.SimulationMasterContainer@85:shutdown|Initiating shutdown...
+1578305854684|INFO|org.arl.fjage.connectors.TcpServer@12:run|Stopped listening
+1578305854686|INFO|org.arl.fjage.shell.ShellAgent/A@57:shutdown|Agent websh shutdown
+1578305854690|INFO|org.arl.fjage.connectors.WebServer@57:remove|Removing web context: /fjage/shell/ws
+1578305854706|INFO|org.arl.unet.sim.SimulationMasterContainer@86:shutdown|Initiating shutdown...
+1578305854713|INFO|org.arl.fjage.connectors.WebServer@57:stop|Stopping web server
+1578305854732|INFO|org.arl.unet.sim.SimulationMasterContainer@85:shutdown|All agents have shutdown
+1578305854737|INFO|org.arl.fjage.connectors.WebServer@85:remove|Removing web context: /ws
+1578305854740|INFO|org.arl.unet.sim.SimulationMasterContainer@85:connectionClosed|Connection ws://127.0.1.1:8082/ws closed
+1578305854740|INFO|org.arl.unet.sim.SimulationMasterContainer@85:shutdown|Initiating shutdown...
+1578305854741|INFO|org.arl.fjage.shell.ShellAgent/B@67:shutdown|Agent websh shutdown
+1578305854741|INFO|org.arl.fjage.connectors.TcpServer@26:run|Stopped listening
+1578305854742|INFO|org.arl.fjage.connectors.WebServer@67:remove|Removing web context: /fjage/shell/ws
+1578305854754|INFO|org.arl.fjage.connectors.WebServer@67:stop|Stopping web server
+1578305854755|INFO|org.arl.unet.sim.SimulationMasterContainer@87:shutdown|Initiating shutdown...
+1578305854806|INFO|org.arl.unet.sim.SimulationMasterContainer@86:shutdown|All agents have shutdown
+1578305854807|INFO|org.arl.unet.sim.SimulationMasterContainer@86:shutdown|Initiating shutdown...
+1578305855378|INFO|Floodmsga/C@76:println|sent 1
+1578305855378|INFO|Floodmsga/C@76:println| ack 18
+1578305855378|INFO|Floodmsga/C@76:println|rxstart 17
+1578305855379|INFO|Floodmsga/C@76:println|txstart 0
+1578305855379|INFO|Floodmsga/C@76:println|datantf 0
+1578305855379|INFO|Floodmsga/C@76:println|datadel ntf 0

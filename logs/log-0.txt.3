@@ -1,0 +1,735 @@
+1578309211428|INFO|org.arl.unet.UnetBoot@1:invoke|fjage Build: fjage-1.6.1/10-09-2019_00:41:43
+1578309211515|INFO|org.arl.unet.UnetBoot@1:invoke|UnetBoot: [scripts/2-node-network.groovy]
+1578309211646|INFO|org.arl.unet.JsonTypeAdapter@1:<clinit>|Groovy detected, using GroovyClassLoader
+1578309211668|INFO|org.arl.fjage.remote.MessageAdapterFactory@1:<clinit>|Groovy detected, using GroovyClassLoader
+1578309212574|INFO|org.arl.unet.sim.SimulationMasterContainer@1:openTcpServer|Listening on port 1101
+1578309212577|INFO|org.arl.fjage.connectors.TcpServer@12:run|Stopped listening
+1578309212652|INFO|org.arl.unet.nodeinfo.NodeInfo/A@1:setAddress|Node address changed to 1
+1578309212687|INFO|Script1@1:invoke|Starting web interface on port null:8081
+1578309212815|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /fjage
+1578309212818|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /
+1578309212821|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /logs
+1578309212822|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /sim
+1578309212836|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /ws
+1578309212898|WARNING|org.arl.fjage.connectors.WebServer@1:start|java.io.IOException: Failed to bind to /127.0.0.1:8081
+1578309212901|INFO|org.arl.unet.sim.SimulationMasterContainer@1:addConnector|Listening on ws://127.0.1.1:8081/ws
+1578309212907|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /fjage/shell/ws
+1578309212909|WARNING|org.arl.fjage.connectors.WebServer@1:start|java.io.IOException: Failed to bind to /127.0.0.1:8081
+1578309213487|INFO|Script1@1:invoke|Created static node A (1) @ [0, 0, -15]
+1578309213493|INFO|org.arl.unet.sim.SimulationMasterContainer@1:openTcpServer|Listening on port 1102
+1578309213494|INFO|org.arl.fjage.connectors.TcpServer@26:run|Stopped listening
+1578309213495|INFO|org.arl.unet.nodeinfo.NodeInfo/B@1:setAddress|Node address changed to 2
+1578309213495|INFO|Script1@1:invoke|Starting web interface on port null:8082
+1578309213497|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /fjage
+1578309213497|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /
+1578309213498|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /logs
+1578309213499|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /sim
+1578309213499|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /ws
+1578309213509|WARNING|org.arl.fjage.connectors.WebServer@1:start|java.io.IOException: Failed to bind to /127.0.0.1:8082
+1578309213509|INFO|org.arl.unet.sim.SimulationMasterContainer@1:addConnector|Listening on ws://127.0.1.1:8082/ws
+1578309213509|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /fjage/shell/ws
+1578309213511|WARNING|org.arl.fjage.connectors.WebServer@1:start|java.io.IOException: Failed to bind to /127.0.0.1:8082
+1578309213564|INFO|Script1@1:invoke|Created static node B (2) @ [20.00, 0, -15]
+1578309213566|INFO|org.arl.unet.sim.SimulationMasterContainer@1:openTcpServer|Listening on port 1103
+1578309213567|INFO|org.arl.unet.nodeinfo.NodeInfo/C@1:setAddress|Node address changed to 3
+1578309213568|INFO|Script1@1:invoke|Starting web interface on port null:8083
+1578309213569|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /fjage
+1578309213570|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /
+1578309213570|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /logs
+1578309213571|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /sim
+1578309213572|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /ws
+1578309213573|INFO|org.arl.fjage.connectors.TcpServer@39:run|Stopped listening
+1578309213590|WARNING|org.arl.fjage.connectors.WebServer@1:start|java.io.IOException: Failed to bind to /127.0.0.1:8083
+1578309213593|INFO|org.arl.unet.sim.SimulationMasterContainer@1:addConnector|Listening on ws://127.0.1.1:8083/ws
+1578309213594|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /fjage/shell/ws
+1578309213596|WARNING|org.arl.fjage.connectors.WebServer@1:start|java.io.IOException: Failed to bind to /127.0.0.1:8083
+1578309213643|INFO|Script1@1:invoke|Created static node C (3) @ [40.00, -15]
+1578309213670|INFO|Script1@1:invoke| --- BEGIN SIMULATION #1 ---
+1578309213678|INFO|org.arl.unet.sim.SimulationMasterContainer@1:init|Initializing agents...
+1578309213681|INFO|org.arl.unet.net.Router/A@53:init|Loading agent router v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.net.Router] on A
+1578309213681|INFO|org.arl.unet.remote.RemoteControl/A@52:init|Loading agent remote v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.remote.RemoteControl] on A
+1578309213682|INFO|org.arl.unet.link.ReliableLink/A@54:init|Loading agent uwlink v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.link.ReliableLink] on A
+1578309213683|INFO|org.arl.unet.bb.BasebandSignalMonitor/A@55:init|Loading agent bbmon v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.bb.BasebandSignalMonitor] on A
+1578309213688|INFO|org.arl.fjage.shell.ShellAgent/A@57:init|Agent websh init
+1578309213690|INFO|org.arl.unet.addr.AddressResolution/A@58:init|Loading agent arp v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.addr.AddressResolution] on A
+1578309213693|INFO|org.arl.unet.mac.CSMA/A@60:init|Loading agent mac v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.mac.CSMA] on A
+1578309213695|INFO|org.arl.unet.sim.HalfDuplexModem/A@61:init|Loading agent phy v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.sim.HalfDuplexModem] on A
+1578309213697|INFO|org.arl.unet.net.RouteDiscoveryProtocol/A@62:init|Loading agent rdp v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.net.RouteDiscoveryProtocol] on A
+1578309213698|INFO|org.arl.unet.nodeinfo.NodeInfo/A@63:init|Loading agent node v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.nodeinfo.NodeInfo] on A
+1578309213702|INFO|org.arl.unet.transport.SWTransport/A@64:init|Loading agent transport v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.transport.SWTransport] on A
+1578309213703|INFO|org.arl.unet.phy.Ranging/A@65:init|Loading agent ranging v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.phy.Ranging] on A
+1578309213705|INFO|org.arl.unet.sim.SimulationAgent/A@66:invoke|Loading simulator : SimulationAgent
+1578309213805|INFO|org.arl.unet.sim.SimulationMasterContainer@1:init|Agents ready...
+1578309213805|INFO|org.arl.unet.sim.SimulationMasterContainer@1:init|Initializing agents...
+1578309213806|INFO|org.arl.fjage.shell.ShellAgent/B@67:init|Agent websh init
+1578309213807|INFO|org.arl.unet.sim.HalfDuplexModem/B@68:init|Loading agent phy v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.sim.HalfDuplexModem] on B
+1578309213807|INFO|org.arl.unet.nodeinfo.NodeInfo/B@69:init|Loading agent node v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.nodeinfo.NodeInfo] on B
+1578309213808|INFO|Floodmsg/B@71:init|Loading agent Floodmsg [Floodmsg] on B
+1578309213808|INFO|org.arl.unet.sim.SimulationAgent/B@72:invoke|Loading simulator : SimulationAgent
+1578309213908|INFO|org.arl.unet.sim.SimulationMasterContainer@1:init|Agents ready...
+1578309213908|INFO|org.arl.unet.sim.SimulationMasterContainer@1:init|Initializing agents...
+1578309213909|INFO|org.arl.unet.link.ReliableLink/C@73:init|Loading agent uwlink v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.link.ReliableLink] on C
+1578309213909|INFO|org.arl.fjage.shell.ShellAgent/C@74:init|Agent websh init
+1578309213910|INFO|Floodmsga/C@75:init|Loading agent Floodmsga [Floodmsga] on C
+1578309213911|INFO|org.arl.unet.sim.HalfDuplexModem/C@76:init|Loading agent phy v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.sim.HalfDuplexModem] on C
+1578309213914|INFO|org.arl.unet.nodeinfo.NodeInfo/C@78:init|Loading agent node v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.nodeinfo.NodeInfo] on C
+1578309213918|INFO|org.arl.unet.sim.SimulationAgent/C@79:invoke|Loading simulator : SimulationAgent
+1578309214018|INFO|org.arl.unet.sim.SimulationMasterContainer@1:init|Agents ready...
+1578309214018|INFO|org.arl.unet.sim.SimulationMasterContainer@1:start|Starting container...
+1578309214018|INFO|org.arl.unet.sim.SimulationMasterContainer@1:start|Starting container...
+1578309214019|INFO|org.arl.unet.sim.SimulationMasterContainer@1:start|Starting container...
+1578309214019|INFO|org.arl.unet.transport.SWTransport/A@64:startup|Using router for communication
+1578309214023|INFO|org.arl.unet.link.ReliableLink/A@54:startup|No PHY specified, auto detecting...
+1578309214023|INFO|org.arl.unet.link.ReliableLink/A@54:startup|Using agent 'phy' for PHY
+1578309214023|INFO|org.arl.unet.link.ReliableLink/A@54:startup|No MAC specified, auto detecting...
+1578309214023|INFO|org.arl.unet.link.ReliableLink/A@54:startup|Using agent 'mac' for MAC
+1578309214023|INFO|org.arl.unet.nodeinfo.NodeInfo/A@63:obtainAddress|Node name is A, address is 1, address size is 8 bits
+1578309214024|INFO|org.arl.unet.remote.RemoteControl/A@52:startup|Using transport for communication
+1578309214025|INFO|org.arl.unet.remote.RemoteControl/A@52:startup|Using websh for command exec
+1578309214025|INFO|org.arl.unet.link.ReliableLink/C@73:startup|No PHY specified, auto detecting...
+1578309214025|INFO|org.arl.unet.link.ReliableLink/C@73:startup|Using agent 'phy' for PHY
+1578309214025|INFO|org.arl.unet.link.ReliableLink/C@73:startup|No MAC specified, auto detecting...
+1578309214025|INFO|org.arl.unet.link.ReliableLink/C@73:startup|No MAC detected, continuing without MAC
+1578309214033|INFO|org.arl.unet.nodeinfo.NodeInfo/C@78:obtainAddress|Node name is C, address is 3, address size is 8 bits
+1578309214023|INFO|org.arl.unet.nodeinfo.NodeInfo/B@69:obtainAddress|Node name is B, address is 2, address size is 8 bits
+1578309214079|INFO|org.arl.unet.sim.SimulationAgent/A@66:call|Simulation agent ready
+1578309224152|INFO|org.arl.unet.sim.SimulationAgent/A@66:call|TxFrameNtf:INFORM[type:DATA txTime:386537432]
+1578309224176|INFO|Floodmsga/C@75:println|sent 1
+1578309224177|INFO|Floodmsga/C@75:println| ack 1
+1578309224177|INFO|Floodmsga/C@75:println|rxstart 1
+1578309224177|INFO|Floodmsga/C@75:println|txstart 0
+1578309224177|INFO|Floodmsga/C@75:println|datantf 0
+1578309224178|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309224873|INFO|Floodmsga/C@75:println|sent 1
+1578309224874|INFO|Floodmsga/C@75:println| ack 2
+1578309224874|INFO|Floodmsga/C@75:println|rxstart 1
+1578309224874|INFO|Floodmsga/C@75:println|txstart 0
+1578309224874|INFO|Floodmsga/C@75:println|datantf 0
+1578309224874|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309224957|INFO|Floodmsga/C@75:println|sent 1
+1578309224957|INFO|Floodmsga/C@75:println| ack 2
+1578309224957|INFO|Floodmsga/C@75:println|rxstart 2
+1578309224957|INFO|Floodmsga/C@75:println|txstart 0
+1578309224957|INFO|Floodmsga/C@75:println|datantf 0
+1578309224957|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309225655|INFO|Floodmsga/C@75:println|sent 1
+1578309225655|INFO|Floodmsga/C@75:println| ack 3
+1578309225655|INFO|Floodmsga/C@75:println|rxstart 2
+1578309225656|INFO|Floodmsga/C@75:println|txstart 0
+1578309225656|INFO|Floodmsga/C@75:println|datantf 0
+1578309225656|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309225704|INFO|Floodmsga/C@75:println|sent 1
+1578309225705|INFO|Floodmsga/C@75:println| ack 3
+1578309225705|INFO|Floodmsga/C@75:println|rxstart 3
+1578309225705|INFO|Floodmsga/C@75:println|txstart 0
+1578309225705|INFO|Floodmsga/C@75:println|datantf 0
+1578309225705|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309226403|INFO|Floodmsga/C@75:println|sent 1
+1578309226403|INFO|Floodmsga/C@75:println| ack 4
+1578309226404|INFO|Floodmsga/C@75:println|rxstart 3
+1578309226404|INFO|Floodmsga/C@75:println|txstart 0
+1578309226404|INFO|Floodmsga/C@75:println|datantf 0
+1578309226404|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309226488|INFO|Floodmsga/C@75:println|sent 1
+1578309226488|INFO|Floodmsga/C@75:println| ack 4
+1578309226488|INFO|Floodmsga/C@75:println|rxstart 4
+1578309226488|INFO|Floodmsga/C@75:println|txstart 0
+1578309226489|INFO|Floodmsga/C@75:println|datantf 0
+1578309226489|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309227157|INFO|Floodmsga/C@75:println|sent 1
+1578309227157|INFO|Floodmsga/C@75:println| ack 5
+1578309227157|INFO|Floodmsga/C@75:println|rxstart 4
+1578309227157|INFO|Floodmsga/C@75:println|txstart 0
+1578309227158|INFO|Floodmsga/C@75:println|datantf 0
+1578309227158|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309227209|INFO|Floodmsga/C@75:println|sent 1
+1578309227210|INFO|Floodmsga/C@75:println| ack 5
+1578309227210|INFO|Floodmsga/C@75:println|rxstart 5
+1578309227210|INFO|Floodmsga/C@75:println|txstart 0
+1578309227210|INFO|Floodmsga/C@75:println|datantf 0
+1578309227210|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309227916|INFO|Floodmsga/C@75:println|sent 1
+1578309227917|INFO|Floodmsga/C@75:println| ack 6
+1578309227917|INFO|Floodmsga/C@75:println|rxstart 5
+1578309227917|INFO|Floodmsga/C@75:println|txstart 0
+1578309227917|INFO|Floodmsga/C@75:println|datantf 0
+1578309227917|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309227965|INFO|Floodmsga/C@75:println|sent 1
+1578309227965|INFO|Floodmsga/C@75:println| ack 6
+1578309227965|INFO|Floodmsga/C@75:println|rxstart 6
+1578309227965|INFO|Floodmsga/C@75:println|txstart 0
+1578309227965|INFO|Floodmsga/C@75:println|datantf 0
+1578309227965|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309228666|INFO|Floodmsga/C@75:println|sent 1
+1578309228668|INFO|Floodmsga/C@75:println| ack 7
+1578309228668|INFO|Floodmsga/C@75:println|rxstart 6
+1578309228669|INFO|Floodmsga/C@75:println|txstart 0
+1578309228678|INFO|Floodmsga/C@75:println|datantf 0
+1578309228679|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309228713|INFO|Floodmsga/C@75:println|sent 1
+1578309228714|INFO|Floodmsga/C@75:println| ack 7
+1578309228715|INFO|Floodmsga/C@75:println|rxstart 7
+1578309228716|INFO|Floodmsga/C@75:println|txstart 0
+1578309228717|INFO|Floodmsga/C@75:println|datantf 0
+1578309228717|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309229414|INFO|Floodmsga/C@75:println|sent 1
+1578309229415|INFO|Floodmsga/C@75:println| ack 8
+1578309229415|INFO|Floodmsga/C@75:println|rxstart 7
+1578309229415|INFO|Floodmsga/C@75:println|txstart 0
+1578309229415|INFO|Floodmsga/C@75:println|datantf 0
+1578309229415|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309229463|INFO|Floodmsga/C@75:println|sent 1
+1578309229463|INFO|Floodmsga/C@75:println| ack 8
+1578309229463|INFO|Floodmsga/C@75:println|rxstart 8
+1578309229463|INFO|Floodmsga/C@75:println|txstart 0
+1578309229463|INFO|Floodmsga/C@75:println|datantf 0
+1578309229463|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309230163|INFO|Floodmsga/C@75:println|sent 1
+1578309230163|INFO|Floodmsga/C@75:println| ack 9
+1578309230163|INFO|Floodmsga/C@75:println|rxstart 8
+1578309230163|INFO|Floodmsga/C@75:println|txstart 0
+1578309230163|INFO|Floodmsga/C@75:println|datantf 0
+1578309230163|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309230213|INFO|Floodmsga/C@75:println|sent 1
+1578309230214|INFO|Floodmsga/C@75:println| ack 9
+1578309230214|INFO|Floodmsga/C@75:println|rxstart 9
+1578309230215|INFO|Floodmsga/C@75:println|txstart 0
+1578309230215|INFO|Floodmsga/C@75:println|datantf 0
+1578309230215|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309230923|INFO|Floodmsga/C@75:println|sent 1
+1578309230923|INFO|Floodmsga/C@75:println| ack 10
+1578309230924|INFO|Floodmsga/C@75:println|rxstart 9
+1578309230924|INFO|Floodmsga/C@75:println|txstart 0
+1578309230924|INFO|Floodmsga/C@75:println|datantf 0
+1578309230924|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309230979|INFO|Floodmsga/C@75:println|sent 1
+1578309230979|INFO|Floodmsga/C@75:println| ack 10
+1578309230979|INFO|Floodmsga/C@75:println|rxstart 10
+1578309230979|INFO|Floodmsga/C@75:println|txstart 0
+1578309230979|INFO|Floodmsga/C@75:println|datantf 0
+1578309230979|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309231680|INFO|Floodmsga/C@75:println|sent 1
+1578309231680|INFO|Floodmsga/C@75:println| ack 11
+1578309231680|INFO|Floodmsga/C@75:println|rxstart 10
+1578309231680|INFO|Floodmsga/C@75:println|txstart 0
+1578309231680|INFO|Floodmsga/C@75:println|datantf 0
+1578309231680|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309231728|INFO|Floodmsga/C@75:println|sent 1
+1578309231728|INFO|Floodmsga/C@75:println| ack 11
+1578309231728|INFO|Floodmsga/C@75:println|rxstart 11
+1578309231728|INFO|Floodmsga/C@75:println|txstart 0
+1578309231728|INFO|Floodmsga/C@75:println|datantf 0
+1578309231729|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309232427|INFO|Floodmsga/C@75:println|sent 1
+1578309232427|INFO|Floodmsga/C@75:println| ack 12
+1578309232428|INFO|Floodmsga/C@75:println|rxstart 11
+1578309232428|INFO|Floodmsga/C@75:println|txstart 0
+1578309232428|INFO|Floodmsga/C@75:println|datantf 0
+1578309232428|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309232480|INFO|Floodmsga/C@75:println|sent 1
+1578309232481|INFO|Floodmsga/C@75:println| ack 12
+1578309232481|INFO|Floodmsga/C@75:println|rxstart 12
+1578309232481|INFO|Floodmsga/C@75:println|txstart 0
+1578309232481|INFO|Floodmsga/C@75:println|datantf 0
+1578309232481|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309233178|INFO|Floodmsga/C@75:println|sent 1
+1578309233178|INFO|Floodmsga/C@75:println| ack 13
+1578309233179|INFO|Floodmsga/C@75:println|rxstart 12
+1578309233179|INFO|Floodmsga/C@75:println|txstart 0
+1578309233179|INFO|Floodmsga/C@75:println|datantf 0
+1578309233179|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309233228|INFO|Floodmsga/C@75:println|sent 1
+1578309233229|INFO|Floodmsga/C@75:println| ack 13
+1578309233229|INFO|Floodmsga/C@75:println|rxstart 13
+1578309233229|INFO|Floodmsga/C@75:println|txstart 0
+1578309233229|INFO|Floodmsga/C@75:println|datantf 0
+1578309233229|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309233929|INFO|Floodmsga/C@75:println|sent 1
+1578309233929|INFO|Floodmsga/C@75:println| ack 14
+1578309233929|INFO|Floodmsga/C@75:println|rxstart 13
+1578309233929|INFO|Floodmsga/C@75:println|txstart 0
+1578309233929|INFO|Floodmsga/C@75:println|datantf 0
+1578309233929|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309233977|INFO|Floodmsga/C@75:println|sent 1
+1578309233978|INFO|Floodmsga/C@75:println| ack 14
+1578309233978|INFO|Floodmsga/C@75:println|rxstart 14
+1578309233978|INFO|Floodmsga/C@75:println|txstart 0
+1578309233978|INFO|Floodmsga/C@75:println|datantf 0
+1578309233978|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309234682|INFO|Floodmsga/C@75:println|sent 1
+1578309234683|INFO|Floodmsga/C@75:println| ack 15
+1578309234683|INFO|Floodmsga/C@75:println|rxstart 14
+1578309234683|INFO|Floodmsga/C@75:println|txstart 0
+1578309234683|INFO|Floodmsga/C@75:println|datantf 0
+1578309234683|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309234729|INFO|Floodmsga/C@75:println|sent 1
+1578309234729|INFO|Floodmsga/C@75:println| ack 15
+1578309234729|INFO|Floodmsga/C@75:println|rxstart 15
+1578309234729|INFO|Floodmsga/C@75:println|txstart 0
+1578309234729|INFO|Floodmsga/C@75:println|datantf 0
+1578309234729|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309234738|INFO|org.arl.unet.sim.SimulationAgent/A@66:call|TxFrameNtf:INFORM[type:DATA txTime:397127432]
+1578309234764|INFO|Floodmsga/C@75:println|sent 1
+1578309234764|INFO|Floodmsga/C@75:println| ack 15
+1578309234764|INFO|Floodmsga/C@75:println|rxstart 16
+1578309234764|INFO|Floodmsga/C@75:println|txstart 0
+1578309234764|INFO|Floodmsga/C@75:println|datantf 0
+1578309234764|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309235461|INFO|Floodmsga/C@75:println|sent 1
+1578309235461|INFO|Floodmsga/C@75:println| ack 16
+1578309235461|INFO|Floodmsga/C@75:println|rxstart 16
+1578309235461|INFO|Floodmsga/C@75:println|txstart 0
+1578309235461|INFO|Floodmsga/C@75:println|datantf 0
+1578309235461|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309235481|INFO|Floodmsga/C@75:println|sent 1
+1578309235481|INFO|Floodmsga/C@75:println| ack 16
+1578309235481|INFO|Floodmsga/C@75:println|rxstart 17
+1578309235481|INFO|Floodmsga/C@75:println|txstart 0
+1578309235481|INFO|Floodmsga/C@75:println|datantf 0
+1578309235481|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309236181|INFO|Floodmsga/C@75:println|sent 1
+1578309236181|INFO|Floodmsga/C@75:println| ack 17
+1578309236181|INFO|Floodmsga/C@75:println|rxstart 17
+1578309236182|INFO|Floodmsga/C@75:println|txstart 0
+1578309236182|INFO|Floodmsga/C@75:println|datantf 0
+1578309236182|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309236233|INFO|Floodmsga/C@75:println|sent 1
+1578309236235|INFO|Floodmsga/C@75:println| ack 17
+1578309236235|INFO|Floodmsga/C@75:println|rxstart 18
+1578309236237|INFO|Floodmsga/C@75:println|txstart 0
+1578309236238|INFO|Floodmsga/C@75:println|datantf 0
+1578309236238|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309236932|INFO|Floodmsga/C@75:println|sent 1
+1578309236932|INFO|Floodmsga/C@75:println| ack 18
+1578309236932|INFO|Floodmsga/C@75:println|rxstart 18
+1578309236932|INFO|Floodmsga/C@75:println|txstart 0
+1578309236932|INFO|Floodmsga/C@75:println|datantf 0
+1578309236932|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309236985|INFO|Floodmsga/C@75:println|sent 1
+1578309236985|INFO|Floodmsga/C@75:println| ack 18
+1578309236985|INFO|Floodmsga/C@75:println|rxstart 19
+1578309236985|INFO|Floodmsga/C@75:println|txstart 0
+1578309236986|INFO|Floodmsga/C@75:println|datantf 0
+1578309236986|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309237682|INFO|Floodmsga/C@75:println|sent 1
+1578309237682|INFO|Floodmsga/C@75:println| ack 19
+1578309237684|INFO|Floodmsga/C@75:println|rxstart 19
+1578309237684|INFO|Floodmsga/C@75:println|txstart 0
+1578309237685|INFO|Floodmsga/C@75:println|datantf 0
+1578309237685|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309237732|INFO|Floodmsga/C@75:println|sent 1
+1578309237732|INFO|Floodmsga/C@75:println| ack 19
+1578309237732|INFO|Floodmsga/C@75:println|rxstart 20
+1578309237732|INFO|Floodmsga/C@75:println|txstart 0
+1578309237733|INFO|Floodmsga/C@75:println|datantf 0
+1578309237733|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309238437|INFO|Floodmsga/C@75:println|sent 1
+1578309238437|INFO|Floodmsga/C@75:println| ack 20
+1578309238438|INFO|Floodmsga/C@75:println|rxstart 20
+1578309238438|INFO|Floodmsga/C@75:println|txstart 0
+1578309238438|INFO|Floodmsga/C@75:println|datantf 0
+1578309238438|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309238503|INFO|Floodmsga/C@75:println|sent 1
+1578309238503|INFO|Floodmsga/C@75:println| ack 20
+1578309238503|INFO|Floodmsga/C@75:println|rxstart 21
+1578309238503|INFO|Floodmsga/C@75:println|txstart 0
+1578309238503|INFO|Floodmsga/C@75:println|datantf 0
+1578309238504|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309239190|INFO|Floodmsga/C@75:println|sent 1
+1578309239191|INFO|Floodmsga/C@75:println| ack 21
+1578309239191|INFO|Floodmsga/C@75:println|rxstart 21
+1578309239191|INFO|Floodmsga/C@75:println|txstart 0
+1578309239191|INFO|Floodmsga/C@75:println|datantf 0
+1578309239191|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309239257|INFO|Floodmsga/C@75:println|sent 1
+1578309239257|INFO|Floodmsga/C@75:println| ack 21
+1578309239257|INFO|Floodmsga/C@75:println|rxstart 22
+1578309239257|INFO|Floodmsga/C@75:println|txstart 0
+1578309239257|INFO|Floodmsga/C@75:println|datantf 0
+1578309239257|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309239957|INFO|Floodmsga/C@75:println|sent 1
+1578309239957|INFO|Floodmsga/C@75:println| ack 22
+1578309239957|INFO|Floodmsga/C@75:println|rxstart 22
+1578309239957|INFO|Floodmsga/C@75:println|txstart 0
+1578309239958|INFO|Floodmsga/C@75:println|datantf 0
+1578309239958|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309240017|INFO|Floodmsga/C@75:println|sent 1
+1578309240017|INFO|Floodmsga/C@75:println| ack 22
+1578309240017|INFO|Floodmsga/C@75:println|rxstart 23
+1578309240018|INFO|Floodmsga/C@75:println|txstart 0
+1578309240018|INFO|Floodmsga/C@75:println|datantf 0
+1578309240018|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309240719|INFO|Floodmsga/C@75:println|sent 1
+1578309240719|INFO|Floodmsga/C@75:println| ack 23
+1578309240719|INFO|Floodmsga/C@75:println|rxstart 23
+1578309240719|INFO|Floodmsga/C@75:println|txstart 0
+1578309240719|INFO|Floodmsga/C@75:println|datantf 0
+1578309240719|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309240768|INFO|Floodmsga/C@75:println|sent 1
+1578309240768|INFO|Floodmsga/C@75:println| ack 23
+1578309240768|INFO|Floodmsga/C@75:println|rxstart 24
+1578309240768|INFO|Floodmsga/C@75:println|txstart 0
+1578309240768|INFO|Floodmsga/C@75:println|datantf 0
+1578309240768|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309241468|INFO|Floodmsga/C@75:println|sent 1
+1578309241468|INFO|Floodmsga/C@75:println| ack 24
+1578309241468|INFO|Floodmsga/C@75:println|rxstart 24
+1578309241468|INFO|Floodmsga/C@75:println|txstart 0
+1578309241469|INFO|Floodmsga/C@75:println|datantf 0
+1578309241469|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309241525|INFO|Floodmsga/C@75:println|sent 1
+1578309241526|INFO|Floodmsga/C@75:println| ack 24
+1578309241526|INFO|Floodmsga/C@75:println|rxstart 25
+1578309241526|INFO|Floodmsga/C@75:println|txstart 0
+1578309241532|INFO|Floodmsga/C@75:println|datantf 0
+1578309241541|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309242220|INFO|Floodmsga/C@75:println|sent 1
+1578309242222|INFO|Floodmsga/C@75:println| ack 25
+1578309242224|INFO|Floodmsga/C@75:println|rxstart 25
+1578309242224|INFO|Floodmsga/C@75:println|txstart 0
+1578309242224|INFO|Floodmsga/C@75:println|datantf 0
+1578309242224|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309242272|INFO|Floodmsga/C@75:println|sent 1
+1578309242272|INFO|Floodmsga/C@75:println| ack 25
+1578309242272|INFO|Floodmsga/C@75:println|rxstart 26
+1578309242272|INFO|Floodmsga/C@75:println|txstart 0
+1578309242272|INFO|Floodmsga/C@75:println|datantf 0
+1578309242272|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309242975|INFO|Floodmsga/C@75:println|sent 1
+1578309242975|INFO|Floodmsga/C@75:println| ack 26
+1578309242975|INFO|Floodmsga/C@75:println|rxstart 26
+1578309242975|INFO|Floodmsga/C@75:println|txstart 0
+1578309242975|INFO|Floodmsga/C@75:println|datantf 0
+1578309242976|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309243041|INFO|Floodmsga/C@75:println|sent 1
+1578309243041|INFO|Floodmsga/C@75:println| ack 26
+1578309243041|INFO|Floodmsga/C@75:println|rxstart 27
+1578309243041|INFO|Floodmsga/C@75:println|txstart 0
+1578309243041|INFO|Floodmsga/C@75:println|datantf 0
+1578309243041|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309243740|INFO|Floodmsga/C@75:println|sent 1
+1578309243741|INFO|Floodmsga/C@75:println| ack 27
+1578309243741|INFO|Floodmsga/C@75:println|rxstart 27
+1578309243741|INFO|Floodmsga/C@75:println|txstart 0
+1578309243741|INFO|Floodmsga/C@75:println|datantf 0
+1578309243741|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309243791|INFO|Floodmsga/C@75:println|sent 1
+1578309243791|INFO|Floodmsga/C@75:println| ack 27
+1578309243791|INFO|Floodmsga/C@75:println|rxstart 28
+1578309243791|INFO|Floodmsga/C@75:println|txstart 0
+1578309243791|INFO|Floodmsga/C@75:println|datantf 0
+1578309243791|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309244509|INFO|Floodmsga/C@75:println|sent 1
+1578309244510|INFO|Floodmsga/C@75:println| ack 28
+1578309244511|INFO|Floodmsga/C@75:println|rxstart 28
+1578309244511|INFO|Floodmsga/C@75:println|txstart 0
+1578309244511|INFO|Floodmsga/C@75:println|datantf 0
+1578309244511|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309244567|INFO|org.arl.unet.sim.SimulationAgent/A@66:call|TxFrameNtf:INFORM[type:DATA txTime:406959432]
+1578309244575|INFO|Floodmsga/C@75:println|sent 1
+1578309244575|INFO|Floodmsga/C@75:println| ack 28
+1578309244575|INFO|Floodmsga/C@75:println|rxstart 29
+1578309244575|INFO|Floodmsga/C@75:println|txstart 0
+1578309244576|INFO|Floodmsga/C@75:println|datantf 0
+1578309244576|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309244596|INFO|Floodmsga/C@75:println|sent 1
+1578309244596|INFO|Floodmsga/C@75:println| ack 28
+1578309244596|INFO|Floodmsga/C@75:println|rxstart 30
+1578309244596|INFO|Floodmsga/C@75:println|txstart 0
+1578309244596|INFO|Floodmsga/C@75:println|datantf 0
+1578309244596|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309245296|INFO|Floodmsga/C@75:println|sent 1
+1578309245296|INFO|Floodmsga/C@75:println| ack 29
+1578309245296|INFO|Floodmsga/C@75:println|rxstart 30
+1578309245296|INFO|Floodmsga/C@75:println|txstart 0
+1578309245296|INFO|Floodmsga/C@75:println|datantf 0
+1578309245296|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309245324|INFO|Floodmsga/C@75:println|sent 1
+1578309245324|INFO|Floodmsga/C@75:println| ack 29
+1578309245325|INFO|Floodmsga/C@75:println|rxstart 31
+1578309245325|INFO|Floodmsga/C@75:println|txstart 0
+1578309245325|INFO|Floodmsga/C@75:println|datantf 0
+1578309245325|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309246025|INFO|Floodmsga/C@75:println|sent 1
+1578309246025|INFO|Floodmsga/C@75:println| ack 30
+1578309246025|INFO|Floodmsga/C@75:println|rxstart 31
+1578309246025|INFO|Floodmsga/C@75:println|txstart 0
+1578309246025|INFO|Floodmsga/C@75:println|datantf 0
+1578309246025|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309246074|INFO|Floodmsga/C@75:println|sent 1
+1578309246074|INFO|Floodmsga/C@75:println| ack 30
+1578309246074|INFO|Floodmsga/C@75:println|rxstart 32
+1578309246075|INFO|Floodmsga/C@75:println|txstart 0
+1578309246075|INFO|Floodmsga/C@75:println|datantf 0
+1578309246075|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309246775|INFO|Floodmsga/C@75:println|sent 1
+1578309246775|INFO|Floodmsga/C@75:println| ack 31
+1578309246775|INFO|Floodmsga/C@75:println|rxstart 32
+1578309246775|INFO|Floodmsga/C@75:println|txstart 0
+1578309246775|INFO|Floodmsga/C@75:println|datantf 0
+1578309246775|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309246824|INFO|Floodmsga/C@75:println|sent 1
+1578309246825|INFO|Floodmsga/C@75:println| ack 31
+1578309246825|INFO|Floodmsga/C@75:println|rxstart 33
+1578309246825|INFO|Floodmsga/C@75:println|txstart 0
+1578309246825|INFO|Floodmsga/C@75:println|datantf 0
+1578309246825|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309247528|INFO|Floodmsga/C@75:println|sent 1
+1578309247528|INFO|Floodmsga/C@75:println| ack 32
+1578309247528|INFO|Floodmsga/C@75:println|rxstart 33
+1578309247528|INFO|Floodmsga/C@75:println|txstart 0
+1578309247528|INFO|Floodmsga/C@75:println|datantf 0
+1578309247528|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309247574|INFO|Floodmsga/C@75:println|sent 1
+1578309247574|INFO|Floodmsga/C@75:println| ack 32
+1578309247575|INFO|Floodmsga/C@75:println|rxstart 34
+1578309247575|INFO|Floodmsga/C@75:println|txstart 0
+1578309247575|INFO|Floodmsga/C@75:println|datantf 0
+1578309247575|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309248627|INFO|Floodmsga/C@75:println|sent 1
+1578309248629|INFO|Floodmsga/C@75:println| ack 33
+1578309248630|INFO|Floodmsga/C@75:println|rxstart 34
+1578309248630|INFO|Floodmsga/C@75:println|txstart 0
+1578309248630|INFO|Floodmsga/C@75:println|datantf 0
+1578309248630|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309248691|INFO|Floodmsga/C@75:println|sent 1
+1578309248691|INFO|Floodmsga/C@75:println| ack 33
+1578309248691|INFO|Floodmsga/C@75:println|rxstart 35
+1578309248691|INFO|Floodmsga/C@75:println|txstart 0
+1578309248691|INFO|Floodmsga/C@75:println|datantf 0
+1578309248691|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309249391|INFO|Floodmsga/C@75:println|sent 1
+1578309249391|INFO|Floodmsga/C@75:println| ack 34
+1578309249391|INFO|Floodmsga/C@75:println|rxstart 35
+1578309249391|INFO|Floodmsga/C@75:println|txstart 0
+1578309249391|INFO|Floodmsga/C@75:println|datantf 0
+1578309249391|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309249440|INFO|Floodmsga/C@75:println|sent 1
+1578309249440|INFO|Floodmsga/C@75:println| ack 34
+1578309249440|INFO|Floodmsga/C@75:println|rxstart 36
+1578309249440|INFO|Floodmsga/C@75:println|txstart 0
+1578309249440|INFO|Floodmsga/C@75:println|datantf 0
+1578309249441|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309250139|INFO|Floodmsga/C@75:println|sent 1
+1578309250139|INFO|Floodmsga/C@75:println| ack 35
+1578309250140|INFO|Floodmsga/C@75:println|rxstart 36
+1578309250140|INFO|Floodmsga/C@75:println|txstart 0
+1578309250140|INFO|Floodmsga/C@75:println|datantf 0
+1578309250140|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309250192|INFO|Floodmsga/C@75:println|sent 1
+1578309250192|INFO|Floodmsga/C@75:println| ack 35
+1578309250192|INFO|Floodmsga/C@75:println|rxstart 37
+1578309250192|INFO|Floodmsga/C@75:println|txstart 0
+1578309250193|INFO|Floodmsga/C@75:println|datantf 0
+1578309250193|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309250893|INFO|Floodmsga/C@75:println|sent 1
+1578309250893|INFO|Floodmsga/C@75:println| ack 36
+1578309250893|INFO|Floodmsga/C@75:println|rxstart 37
+1578309250893|INFO|Floodmsga/C@75:println|txstart 0
+1578309250893|INFO|Floodmsga/C@75:println|datantf 0
+1578309250894|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309250944|INFO|Floodmsga/C@75:println|sent 1
+1578309250944|INFO|Floodmsga/C@75:println| ack 36
+1578309250944|INFO|Floodmsga/C@75:println|rxstart 38
+1578309250944|INFO|Floodmsga/C@75:println|txstart 0
+1578309250944|INFO|Floodmsga/C@75:println|datantf 0
+1578309250944|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309251643|INFO|Floodmsga/C@75:println|sent 1
+1578309251643|INFO|Floodmsga/C@75:println| ack 37
+1578309251643|INFO|Floodmsga/C@75:println|rxstart 38
+1578309251644|INFO|Floodmsga/C@75:println|txstart 0
+1578309251644|INFO|Floodmsga/C@75:println|datantf 0
+1578309251644|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309251694|INFO|Floodmsga/C@75:println|sent 1
+1578309251695|INFO|Floodmsga/C@75:println| ack 37
+1578309251695|INFO|Floodmsga/C@75:println|rxstart 39
+1578309251695|INFO|Floodmsga/C@75:println|txstart 0
+1578309251695|INFO|Floodmsga/C@75:println|datantf 0
+1578309251695|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309252395|INFO|Floodmsga/C@75:println|sent 1
+1578309252395|INFO|Floodmsga/C@75:println| ack 38
+1578309252395|INFO|Floodmsga/C@75:println|rxstart 39
+1578309252396|INFO|Floodmsga/C@75:println|txstart 0
+1578309252396|INFO|Floodmsga/C@75:println|datantf 0
+1578309252396|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309252444|INFO|Floodmsga/C@75:println|sent 1
+1578309252444|INFO|Floodmsga/C@75:println| ack 38
+1578309252444|INFO|Floodmsga/C@75:println|rxstart 40
+1578309252444|INFO|Floodmsga/C@75:println|txstart 0
+1578309252444|INFO|Floodmsga/C@75:println|datantf 0
+1578309252444|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309253144|INFO|Floodmsga/C@75:println|sent 1
+1578309253144|INFO|Floodmsga/C@75:println| ack 39
+1578309253144|INFO|Floodmsga/C@75:println|rxstart 40
+1578309253144|INFO|Floodmsga/C@75:println|txstart 0
+1578309253144|INFO|Floodmsga/C@75:println|datantf 0
+1578309253144|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309253194|INFO|Floodmsga/C@75:println|sent 1
+1578309253194|INFO|Floodmsga/C@75:println| ack 39
+1578309253194|INFO|Floodmsga/C@75:println|rxstart 41
+1578309253194|INFO|Floodmsga/C@75:println|txstart 0
+1578309253194|INFO|Floodmsga/C@75:println|datantf 0
+1578309253194|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309253894|INFO|Floodmsga/C@75:println|sent 1
+1578309253895|INFO|Floodmsga/C@75:println| ack 40
+1578309253895|INFO|Floodmsga/C@75:println|rxstart 41
+1578309253895|INFO|Floodmsga/C@75:println|txstart 0
+1578309253895|INFO|Floodmsga/C@75:println|datantf 0
+1578309253895|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309253944|INFO|Floodmsga/C@75:println|sent 1
+1578309253944|INFO|Floodmsga/C@75:println| ack 40
+1578309253944|INFO|Floodmsga/C@75:println|rxstart 42
+1578309253945|INFO|Floodmsga/C@75:println|txstart 0
+1578309253945|INFO|Floodmsga/C@75:println|datantf 0
+1578309253945|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309254649|INFO|Floodmsga/C@75:println|sent 1
+1578309254649|INFO|Floodmsga/C@75:println| ack 41
+1578309254649|INFO|Floodmsga/C@75:println|rxstart 42
+1578309254649|INFO|Floodmsga/C@75:println|txstart 0
+1578309254649|INFO|Floodmsga/C@75:println|datantf 0
+1578309254650|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309254697|INFO|Floodmsga/C@75:println|sent 1
+1578309254697|INFO|Floodmsga/C@75:println| ack 41
+1578309254697|INFO|Floodmsga/C@75:println|rxstart 43
+1578309254697|INFO|Floodmsga/C@75:println|txstart 0
+1578309254697|INFO|Floodmsga/C@75:println|datantf 0
+1578309254697|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309254698|INFO|org.arl.unet.sim.SimulationAgent/A@66:call|TxFrameNtf:INFORM[type:DATA txTime:417094432]
+1578309254727|INFO|Floodmsga/C@75:println|sent 1
+1578309254728|INFO|Floodmsga/C@75:println| ack 41
+1578309254728|INFO|Floodmsga/C@75:println|rxstart 44
+1578309254728|INFO|Floodmsga/C@75:println|txstart 0
+1578309254728|INFO|Floodmsga/C@75:println|datantf 0
+1578309254728|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309255428|INFO|Floodmsga/C@75:println|sent 1
+1578309255428|INFO|Floodmsga/C@75:println| ack 42
+1578309255428|INFO|Floodmsga/C@75:println|rxstart 44
+1578309255428|INFO|Floodmsga/C@75:println|txstart 0
+1578309255428|INFO|Floodmsga/C@75:println|datantf 0
+1578309255428|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309255445|INFO|Floodmsga/C@75:println|sent 1
+1578309255445|INFO|Floodmsga/C@75:println| ack 42
+1578309255445|INFO|Floodmsga/C@75:println|rxstart 45
+1578309255445|INFO|Floodmsga/C@75:println|txstart 0
+1578309255445|INFO|Floodmsga/C@75:println|datantf 0
+1578309255445|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309256146|INFO|Floodmsga/C@75:println|sent 1
+1578309256147|INFO|Floodmsga/C@75:println| ack 43
+1578309256147|INFO|Floodmsga/C@75:println|rxstart 45
+1578309256147|INFO|Floodmsga/C@75:println|txstart 0
+1578309256147|INFO|Floodmsga/C@75:println|datantf 0
+1578309256147|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309256197|INFO|Floodmsga/C@75:println|sent 1
+1578309256198|INFO|Floodmsga/C@75:println| ack 43
+1578309256198|INFO|Floodmsga/C@75:println|rxstart 46
+1578309256198|INFO|Floodmsga/C@75:println|txstart 0
+1578309256198|INFO|Floodmsga/C@75:println|datantf 0
+1578309256198|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309256897|INFO|Floodmsga/C@75:println|sent 1
+1578309256897|INFO|Floodmsga/C@75:println| ack 44
+1578309256897|INFO|Floodmsga/C@75:println|rxstart 46
+1578309256897|INFO|Floodmsga/C@75:println|txstart 0
+1578309256897|INFO|Floodmsga/C@75:println|datantf 0
+1578309256897|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309256945|INFO|Floodmsga/C@75:println|sent 1
+1578309256946|INFO|Floodmsga/C@75:println| ack 44
+1578309256946|INFO|Floodmsga/C@75:println|rxstart 47
+1578309256946|INFO|Floodmsga/C@75:println|txstart 0
+1578309256946|INFO|Floodmsga/C@75:println|datantf 0
+1578309256946|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309257646|INFO|Floodmsga/C@75:println|sent 1
+1578309257646|INFO|Floodmsga/C@75:println| ack 45
+1578309257646|INFO|Floodmsga/C@75:println|rxstart 47
+1578309257647|INFO|Floodmsga/C@75:println|txstart 0
+1578309257647|INFO|Floodmsga/C@75:println|datantf 0
+1578309257647|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309257696|INFO|Floodmsga/C@75:println|sent 1
+1578309257696|INFO|Floodmsga/C@75:println| ack 45
+1578309257696|INFO|Floodmsga/C@75:println|rxstart 48
+1578309257696|INFO|Floodmsga/C@75:println|txstart 0
+1578309257696|INFO|Floodmsga/C@75:println|datantf 0
+1578309257696|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309258395|INFO|Floodmsga/C@75:println|sent 1
+1578309258395|INFO|Floodmsga/C@75:println| ack 46
+1578309258396|INFO|Floodmsga/C@75:println|rxstart 48
+1578309258396|INFO|Floodmsga/C@75:println|txstart 0
+1578309258396|INFO|Floodmsga/C@75:println|datantf 0
+1578309258396|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309258446|INFO|Floodmsga/C@75:println|sent 1
+1578309258446|INFO|Floodmsga/C@75:println| ack 46
+1578309258446|INFO|Floodmsga/C@75:println|rxstart 49
+1578309258446|INFO|Floodmsga/C@75:println|txstart 0
+1578309258447|INFO|Floodmsga/C@75:println|datantf 0
+1578309258447|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309259146|INFO|Floodmsga/C@75:println|sent 1
+1578309259146|INFO|Floodmsga/C@75:println| ack 47
+1578309259146|INFO|Floodmsga/C@75:println|rxstart 49
+1578309259146|INFO|Floodmsga/C@75:println|txstart 0
+1578309259146|INFO|Floodmsga/C@75:println|datantf 0
+1578309259146|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309259202|INFO|Floodmsga/C@75:println|sent 1
+1578309259202|INFO|Floodmsga/C@75:println| ack 47
+1578309259202|INFO|Floodmsga/C@75:println|rxstart 50
+1578309259202|INFO|Floodmsga/C@75:println|txstart 0
+1578309259202|INFO|Floodmsga/C@75:println|datantf 0
+1578309259202|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309259896|INFO|Floodmsga/C@75:println|sent 1
+1578309259897|INFO|Floodmsga/C@75:println| ack 48
+1578309259897|INFO|Floodmsga/C@75:println|rxstart 50
+1578309259897|INFO|Floodmsga/C@75:println|txstart 0
+1578309259898|INFO|Floodmsga/C@75:println|datantf 0
+1578309259898|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309259946|INFO|Floodmsga/C@75:println|sent 1
+1578309259946|INFO|Floodmsga/C@75:println| ack 48
+1578309259947|INFO|Floodmsga/C@75:println|rxstart 51
+1578309259947|INFO|Floodmsga/C@75:println|txstart 0
+1578309259947|INFO|Floodmsga/C@75:println|datantf 0
+1578309259947|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309260646|INFO|Floodmsga/C@75:println|sent 1
+1578309260646|INFO|Floodmsga/C@75:println| ack 49
+1578309260646|INFO|Floodmsga/C@75:println|rxstart 51
+1578309260646|INFO|Floodmsga/C@75:println|txstart 0
+1578309260646|INFO|Floodmsga/C@75:println|datantf 0
+1578309260646|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309260698|INFO|Floodmsga/C@75:println|sent 1
+1578309260698|INFO|Floodmsga/C@75:println| ack 49
+1578309260698|INFO|Floodmsga/C@75:println|rxstart 52
+1578309260698|INFO|Floodmsga/C@75:println|txstart 0
+1578309260698|INFO|Floodmsga/C@75:println|datantf 0
+1578309260698|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309261398|INFO|Floodmsga/C@75:println|sent 1
+1578309261398|INFO|Floodmsga/C@75:println| ack 50
+1578309261398|INFO|Floodmsga/C@75:println|rxstart 52
+1578309261398|INFO|Floodmsga/C@75:println|txstart 0
+1578309261398|INFO|Floodmsga/C@75:println|datantf 0
+1578309261398|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309261448|INFO|Floodmsga/C@75:println|sent 1
+1578309261448|INFO|Floodmsga/C@75:println| ack 50
+1578309261448|INFO|Floodmsga/C@75:println|rxstart 53
+1578309261448|INFO|Floodmsga/C@75:println|txstart 0
+1578309261448|INFO|Floodmsga/C@75:println|datantf 0
+1578309261448|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309262148|INFO|Floodmsga/C@75:println|sent 1
+1578309262148|INFO|Floodmsga/C@75:println| ack 51
+1578309262148|INFO|Floodmsga/C@75:println|rxstart 53
+1578309262148|INFO|Floodmsga/C@75:println|txstart 0
+1578309262148|INFO|Floodmsga/C@75:println|datantf 0
+1578309262148|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309262197|INFO|Floodmsga/C@75:println|sent 1
+1578309262197|INFO|Floodmsga/C@75:println| ack 51
+1578309262197|INFO|Floodmsga/C@75:println|rxstart 54
+1578309262197|INFO|Floodmsga/C@75:println|txstart 0
+1578309262197|INFO|Floodmsga/C@75:println|datantf 0
+1578309262198|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309262898|INFO|Floodmsga/C@75:println|sent 1
+1578309262898|INFO|Floodmsga/C@75:println| ack 52
+1578309262898|INFO|Floodmsga/C@75:println|rxstart 54
+1578309262898|INFO|Floodmsga/C@75:println|txstart 0
+1578309262898|INFO|Floodmsga/C@75:println|datantf 0
+1578309262898|INFO|Floodmsga/C@75:println|datadel ntf 0
+1578309262951|INFO|Floodmsga/C@75:println|sent 1
+1578309262952|INFO|Floodmsga/C@75:println| ack 52
+1578309262953|INFO|Floodmsga/C@75:println|rxstart 55
+1578309262953|INFO|Floodmsga/C@75:println|txstart 0
+1578309262953|INFO|Floodmsga/C@75:println|datantf 0
+1578309262953|INFO|Floodmsga/C@75:println|datadel ntf 0

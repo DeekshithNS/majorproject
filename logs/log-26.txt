@@ -1,0 +1,26 @@
+1580970485685|INFO|org.arl.unet.UnetBoot@1:invoke|fjage Build: fjage-1.6.1/10-09-2019_00:41:43
+1580970485777|INFO|org.arl.unet.UnetBoot@1:invoke|UnetBoot: [scripts/2-node-network.groovy]
+1580970485922|INFO|org.arl.unet.JsonTypeAdapter@1:<clinit>|Groovy detected, using GroovyClassLoader
+1580970485947|INFO|org.arl.fjage.remote.MessageAdapterFactory@1:<clinit>|Groovy detected, using GroovyClassLoader
+1580970486848|WARNING|org.arl.fjage.shell.GroovyScriptEngine@1:error|Groovy script execution failed
+
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+/home/deekshith/unet-3.0.0/scripts/2-node-network.groovy: 66: unable to resolve class TxBasebandSignalReq 
+ @ line 66, column 21.
+                 bb << new TxBasebandSignalReq(signal: sig)
+                       ^
+
+/home/deekshith/unet-3.0.0/scripts/2-node-network.groovy: 102: unable to resolve class TxBasebandSignalReq 
+ @ line 102, column 21.
+                 bb << new TxBasebandSignalReq(signal: sig)
+                       ^
+
+2 errors
+
+Stack trace: ...
+   org.arl.fjage.shell.GroovyScriptEngine.exec(GroovyScriptEngine.java:215) ...
+   org.arl.unet.boot.sim.exec(sim.groovy:41)
+   org.arl.unet.boot.sim$exec$0.call(Unknown Source) ...
+   org.arl.unet.UnetBoot.run(UnetBoot.groovy:181) ...
+   org.arl.unet.UnetBoot.main(UnetBoot.groovy)
+

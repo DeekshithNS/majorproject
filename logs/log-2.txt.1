@@ -1,0 +1,115 @@
+1578311488153|INFO|org.arl.unet.UnetBoot@1:invoke|fjage Build: fjage-1.6.1/10-09-2019_00:41:43
+1578311488243|INFO|org.arl.unet.UnetBoot@1:invoke|UnetBoot: [scripts/2-node-network.groovy]
+1578311488375|INFO|org.arl.unet.JsonTypeAdapter@1:<clinit>|Groovy detected, using GroovyClassLoader
+1578311488396|INFO|org.arl.fjage.remote.MessageAdapterFactory@1:<clinit>|Groovy detected, using GroovyClassLoader
+1578311489253|INFO|org.arl.unet.sim.SimulationMasterContainer@1:openTcpServer|Listening on port 1101
+1578311489257|INFO|org.arl.fjage.connectors.TcpServer@12:run|Stopped listening
+1578311489330|INFO|org.arl.unet.nodeinfo.NodeInfo/A@1:setAddress|Node address changed to 1
+1578311489369|INFO|Script1@1:invoke|Starting web interface on port null:8081
+1578311489526|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /fjage
+1578311489529|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /
+1578311489533|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /logs
+1578311489534|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /sim
+1578311489555|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /ws
+1578311489627|WARNING|org.arl.fjage.connectors.WebServer@1:start|java.io.IOException: Failed to bind to /127.0.0.1:8081
+1578311489630|INFO|org.arl.unet.sim.SimulationMasterContainer@1:addConnector|Listening on ws://127.0.1.1:8081/ws
+1578311489634|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /fjage/shell/ws
+1578311489636|WARNING|org.arl.fjage.connectors.WebServer@1:start|java.io.IOException: Failed to bind to /127.0.0.1:8081
+1578311490144|INFO|Script1@1:invoke|Created static node A (1) @ [0, 0, -15]
+1578311490150|INFO|org.arl.unet.sim.SimulationMasterContainer@1:openTcpServer|Listening on port 1102
+1578311490150|INFO|org.arl.fjage.connectors.TcpServer@26:run|Stopped listening
+1578311490152|INFO|org.arl.unet.nodeinfo.NodeInfo/B@1:setAddress|Node address changed to 2
+1578311490152|INFO|Script1@1:invoke|Starting web interface on port null:8082
+1578311490154|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /fjage
+1578311490154|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /
+1578311490155|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /logs
+1578311490156|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /sim
+1578311490156|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /ws
+1578311490161|WARNING|org.arl.fjage.connectors.WebServer@1:start|java.io.IOException: Failed to bind to /127.0.0.1:8082
+1578311490162|INFO|org.arl.unet.sim.SimulationMasterContainer@1:addConnector|Listening on ws://127.0.1.1:8082/ws
+1578311490166|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /fjage/shell/ws
+1578311490167|WARNING|org.arl.fjage.connectors.WebServer@1:start|java.io.IOException: Failed to bind to /127.0.0.1:8082
+1578311490218|INFO|Script1@1:invoke|Created static node B (2) @ [20.00, 0, -15]
+1578311490220|INFO|org.arl.unet.sim.SimulationMasterContainer@1:openTcpServer|Listening on port 1103
+1578311490221|INFO|org.arl.fjage.connectors.TcpServer@39:run|Stopped listening
+1578311490222|INFO|org.arl.unet.nodeinfo.NodeInfo/C@1:setAddress|Node address changed to 3
+1578311490223|INFO|Script1@1:invoke|Starting web interface on port null:8083
+1578311490223|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /fjage
+1578311490224|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /
+1578311490225|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /logs
+1578311490225|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /sim
+1578311490226|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /ws
+1578311490238|WARNING|org.arl.fjage.connectors.WebServer@1:start|java.io.IOException: Failed to bind to /127.0.0.1:8083
+1578311490238|INFO|org.arl.unet.sim.SimulationMasterContainer@1:addConnector|Listening on ws://127.0.1.1:8083/ws
+1578311490243|INFO|org.arl.fjage.connectors.WebServer@1:add|Adding web context: /fjage/shell/ws
+1578311490247|WARNING|org.arl.fjage.connectors.WebServer@1:start|java.io.IOException: Failed to bind to /127.0.0.1:8083
+1578311490291|INFO|Script1@1:invoke|Created static node C (3) @ [40.00, -15]
+1578311490319|INFO|Script1@1:invoke| --- BEGIN SIMULATION #1 ---
+1578311490326|INFO|org.arl.unet.sim.SimulationMasterContainer@1:init|Initializing agents...
+1578311490329|INFO|org.arl.unet.remote.RemoteControl/A@52:init|Loading agent remote v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.remote.RemoteControl] on A
+1578311490332|INFO|org.arl.unet.net.Router/A@53:init|Loading agent router v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.net.Router] on A
+1578311490333|INFO|org.arl.unet.link.ReliableLink/A@54:init|Loading agent uwlink v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.link.ReliableLink] on A
+1578311490336|INFO|org.arl.unet.bb.BasebandSignalMonitor/A@55:init|Loading agent bbmon v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.bb.BasebandSignalMonitor] on A
+1578311490339|INFO|org.arl.fjage.shell.ShellAgent/A@57:init|Agent websh init
+1578311490342|INFO|org.arl.unet.addr.AddressResolution/A@58:init|Loading agent arp v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.addr.AddressResolution] on A
+1578311490342|INFO|org.arl.unet.mac.CSMA/A@60:init|Loading agent mac v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.mac.CSMA] on A
+1578311490346|INFO|org.arl.unet.sim.HalfDuplexModem/A@61:init|Loading agent phy v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.sim.HalfDuplexModem] on A
+1578311490351|INFO|org.arl.unet.net.RouteDiscoveryProtocol/A@62:init|Loading agent rdp v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.net.RouteDiscoveryProtocol] on A
+1578311490352|INFO|org.arl.unet.nodeinfo.NodeInfo/A@63:init|Loading agent node v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.nodeinfo.NodeInfo] on A
+1578311490352|INFO|org.arl.unet.transport.SWTransport/A@64:init|Loading agent transport v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.transport.SWTransport] on A
+1578311490354|INFO|org.arl.unet.phy.Ranging/A@65:init|Loading agent ranging v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.phy.Ranging] on A
+1578311490358|INFO|org.arl.unet.sim.SimulationAgent/A@66:invoke|Loading simulator : SimulationAgent
+1578311490458|INFO|org.arl.unet.sim.SimulationMasterContainer@1:init|Agents ready...
+1578311490458|INFO|org.arl.unet.sim.SimulationMasterContainer@1:init|Initializing agents...
+1578311490458|INFO|org.arl.fjage.shell.ShellAgent/B@67:init|Agent websh init
+1578311490459|INFO|org.arl.unet.sim.HalfDuplexModem/B@68:init|Loading agent phy v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.sim.HalfDuplexModem] on B
+1578311490459|INFO|org.arl.unet.nodeinfo.NodeInfo/B@69:init|Loading agent node v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.nodeinfo.NodeInfo] on B
+1578311490459|INFO|Floodmsg/B@71:init|Loading agent Floodmsg [Floodmsg] on B
+1578311490460|INFO|org.arl.unet.sim.SimulationAgent/B@72:invoke|Loading simulator : SimulationAgent
+1578311490560|INFO|org.arl.unet.sim.SimulationMasterContainer@1:init|Agents ready...
+1578311490560|INFO|org.arl.unet.sim.SimulationMasterContainer@1:init|Initializing agents...
+1578311490561|INFO|org.arl.fjage.shell.ShellAgent/C@74:init|Agent websh init
+1578311490562|INFO|org.arl.unet.link.ReliableLink/C@73:init|Loading agent uwlink v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.link.ReliableLink] on C
+1578311490564|INFO|org.arl.unet.nodeinfo.NodeInfo/C@78:init|Loading agent node v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.nodeinfo.NodeInfo] on C
+1578311490564|INFO|Floodmsga/C@75:init|Loading agent Floodmsga [Floodmsga] on C
+1578311490565|INFO|org.arl.unet.sim.HalfDuplexModem/C@77:init|Loading agent phy v3.0.0/4b31767d/24-09-2019_21:39:38 [org.arl.unet.sim.HalfDuplexModem] on C
+1578311490569|INFO|org.arl.unet.sim.SimulationAgent/C@79:invoke|Loading simulator : SimulationAgent
+1578311490669|INFO|org.arl.unet.sim.SimulationMasterContainer@1:init|Agents ready...
+1578311490669|INFO|org.arl.unet.sim.SimulationMasterContainer@1:start|Starting container...
+1578311490670|INFO|org.arl.unet.sim.SimulationMasterContainer@1:start|Starting container...
+1578311490670|INFO|org.arl.unet.link.ReliableLink/A@54:startup|No PHY specified, auto detecting...
+1578311490671|INFO|org.arl.unet.link.ReliableLink/A@54:startup|Using agent 'phy' for PHY
+1578311490671|INFO|org.arl.unet.link.ReliableLink/A@54:startup|No MAC specified, auto detecting...
+1578311490671|INFO|org.arl.unet.link.ReliableLink/A@54:startup|Using agent 'mac' for MAC
+1578311490670|INFO|org.arl.unet.remote.RemoteControl/A@52:startup|Using transport for communication
+1578311490674|INFO|org.arl.unet.nodeinfo.NodeInfo/B@69:obtainAddress|Node name is B, address is 2, address size is 8 bits
+1578311490673|INFO|org.arl.unet.nodeinfo.NodeInfo/A@63:obtainAddress|Node name is A, address is 1, address size is 8 bits
+1578311490670|INFO|org.arl.unet.sim.SimulationMasterContainer@1:start|Starting container...
+1578311490675|INFO|org.arl.unet.remote.RemoteControl/A@52:startup|Using websh for command exec
+1578311490677|INFO|org.arl.unet.link.ReliableLink/C@73:startup|No PHY specified, auto detecting...
+1578311490677|INFO|org.arl.unet.link.ReliableLink/C@73:startup|Using agent 'phy' for PHY
+1578311490677|INFO|org.arl.unet.link.ReliableLink/C@73:startup|No MAC specified, auto detecting...
+1578311490678|INFO|org.arl.unet.link.ReliableLink/C@73:startup|No MAC detected, continuing without MAC
+1578311490678|INFO|org.arl.unet.nodeinfo.NodeInfo/C@78:obtainAddress|Node name is C, address is 3, address size is 8 bits
+1578311490674|INFO|org.arl.unet.transport.SWTransport/A@64:startup|Using router for communication
+1578311490696|INFO|org.arl.unet.sim.SimulationAgent/A@66:call|Simulation agent ready
+1578311500714|INFO|org.arl.unet.sim.SimulationAgent/A@66:call|Count:1
+1578311500771|INFO|org.arl.unet.sim.SimulationAgent/A@66:call|TxFrameNtf:INFORM[type:DATA txTime:3430205250]
+1578311500801|INFO|Floodmsga/C@75:println| ack 1
+1578311501491|INFO|Floodmsga/C@75:println|from 1  1
+1578311501491|INFO|Floodmsga/C@75:println| ack 2
+1578311501583|INFO|Floodmsga/C@75:println| ack 2
+1578311502275|INFO|Floodmsga/C@75:println| ack 3
+1578311502333|INFO|Floodmsga/C@75:println| ack 3
+1578311503037|INFO|Floodmsga/C@75:println| ack 4
+1578311503104|INFO|Floodmsga/C@75:println| ack 4
+1578311503802|INFO|Floodmsga/C@75:println| ack 5
+1578311503856|INFO|Floodmsga/C@75:println| ack 5
+1578311504554|INFO|Floodmsga/C@75:println| ack 6
+1578311504605|INFO|Floodmsga/C@75:println| ack 6
+1578311505304|INFO|Floodmsga/C@75:println| ack 7
+1578311505354|INFO|Floodmsga/C@75:println| ack 7
+1578311506066|INFO|Floodmsga/C@75:println| ack 8
+1578311506103|INFO|Floodmsga/C@75:println| ack 8
+1578311506805|INFO|Floodmsga/C@75:println| ack 9
+1578311506853|INFO|Floodmsga/C@75:println| ack 9

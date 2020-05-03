@@ -1,0 +1,16 @@
+1578392051126|INFO|org.arl.unet.UnetBoot@1:invoke|fjage Build: fjage-1.6.1/10-09-2019_00:41:43
+1578392051210|INFO|org.arl.unet.UnetBoot@1:invoke|UnetBoot: [scripts/baseband.groovy]
+1578392051348|INFO|org.arl.unet.JsonTypeAdapter@1:<clinit>|Groovy detected, using GroovyClassLoader
+1578392051375|INFO|org.arl.fjage.remote.MessageAdapterFactory@1:<clinit>|Groovy detected, using GroovyClassLoader
+1578392052066|WARNING|org.arl.fjage.shell.GroovyScriptEngine@1:error|Groovy script execution failed
+
+groovy.lang.MissingMethodException: No signature of method: java.lang.Integer.minutes() is applicable for argument types: (baseband$_run_closure1) values: [baseband$_run_closure1@dc9876b]
+Possible solutions: minus(java.lang.Number), minus(java.lang.Character), times(groovy.lang.Closure)
+Stack trace: ...
+   baseband.run(baseband.groovy:23) ...
+   org.arl.fjage.shell.GroovyScriptEngine.exec(GroovyScriptEngine.java:215) ...
+   org.arl.unet.boot.sim.exec(sim.groovy:41)
+   org.arl.unet.boot.sim$exec$0.call(Unknown Source) ...
+   org.arl.unet.UnetBoot.run(UnetBoot.groovy:181) ...
+   org.arl.unet.UnetBoot.main(UnetBoot.groovy)
+

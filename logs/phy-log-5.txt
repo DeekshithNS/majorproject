@@ -1,0 +1,22 @@
+1576139668947|INFO|physical.c:90|Yoda PHY native init
+1576139668947|INFO|physical.c:98|Model: Unet audio
+1576139668947|INFO|physical.c:102|Serial: unetaudio
+ALSA lib pcm_dsnoop.c:618:(snd_pcm_dsnoop_open) unable to open slave
+ALSA lib pcm_dmix.c:1052:(snd_pcm_dmix_open) unable to open slave
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.rear
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.center_lfe
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.side
+ALSA lib pcm_dmix.c:1052:(snd_pcm_dmix_open) unable to open slave
+1576139669051|INFO|hal-pa.c:152|DAC output device: default
+1576139669051|INFO|hal-pa.c:48|ADC input device: default
+1576139669051|WARNING|adc2rec.c:110|ADC2 not installed
+1576139669051|WARNING|utils.h:29|Could not set thread priority: policy = 0, priority = 0
+1576139669068|WARNING|utils.h:29|Could not set thread priority: policy = 0, priority = 0
+1576139669117|INFO|hal-pa.c:169|DAC # of channels: 1
+1576139669118|INFO|hal-pa.c:170|DAC sampling rate: 96000 Sa/s
+1576139669119|INFO|hal-pa.c:171|DAC bit depth: 32.0 bits
+1576139669131|WARNING|physical.c:315|Unable to set scheme 2 parameter [modulation]
+1576139669133|INFO|hal-pa.c:65|ADC # of channels: 1
+1576139669134|INFO|hal-pa.c:66|ADC sampling rate: 48000 Sa/s
+1576139669134|INFO|hal-pa.c:67|ADC bit depth: 32.0 bits
+ALSA lib pcm.c:8306:(snd_pcm_recover) underrun occurred

@@ -1,0 +1,33 @@
+1576223131738|INFO|physical.c:90|Yoda PHY native init
+1576223131738|INFO|physical.c:98|Model: Unet audio
+1576223131738|INFO|physical.c:102|Serial: unetaudio
+ALSA lib pcm_dsnoop.c:618:(snd_pcm_dsnoop_open) unable to open slave
+ALSA lib pcm_dmix.c:1052:(snd_pcm_dmix_open) unable to open slave
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.rear
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.center_lfe
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.side
+ALSA lib pcm_dmix.c:1052:(snd_pcm_dmix_open) unable to open slave
+1576223131853|INFO|hal-pa.c:152|DAC output device: default
+1576223131853|INFO|hal-pa.c:48|ADC input device: default
+1576223131853|WARNING|adc2rec.c:110|ADC2 not installed
+1576223131853|WARNING|utils.h:29|Could not set thread priority: policy = 0, priority = 0
+1576223131879|WARNING|utils.h:29|Could not set thread priority: policy = 0, priority = 0
+1576223131920|INFO|hal-pa.c:169|DAC # of channels: 1
+1576223131920|INFO|hal-pa.c:170|DAC sampling rate: 96000 Sa/s
+1576223131920|INFO|hal-pa.c:171|DAC bit depth: 32.0 bits
+1576223131927|WARNING|physical.c:315|Unable to set scheme 2 parameter [modulation]
+1576223131936|INFO|hal-pa.c:65|ADC # of channels: 1
+1576223131937|INFO|hal-pa.c:66|ADC sampling rate: 48000 Sa/s
+1576223131937|INFO|hal-pa.c:67|ADC bit depth: 32.0 bits
+[8993:8993:1213/131533.434374:ERROR:sandbox_linux.cc(372)] InitializeSandbox() called with multiple threads in process gpu-process.
+[8957:8976:1213/131534.680237:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -106
+[9014:1:1213/131535.143634:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[9014:1:1213/131535.144198:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[8957:8976:1213/131604.058926:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -106
+[8957:8957:1213/131605.804188:ERROR:account_tracker.cc(241)] AccessTokenFetched error: Connection failed (-106).
+[8957:8976:1213/131703.924113:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -106
+[8957:8976:1213/131847.184163:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -106
+[8957:8976:1213/132147.874406:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -106
+ALSA lib pcm.c:8306:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8306:(snd_pcm_recover) underrun occurred
+1576226083733|INFO|physical.c:132|Yoda PHY native shutdown
